@@ -39,7 +39,6 @@ extern struct training_data training_set[MAX_TRAINING_DATA_SIZE];
  * The values of b1 will be index starting all 1, and b2 will be index
  * starting at all 2
  *
- * @param arr the array pointer
  * @param left left index for partitioning start
  * @param right right index for partitioning end
  * @param param parameter to partition
@@ -49,7 +48,7 @@ extern struct training_data training_set[MAX_TRAINING_DATA_SIZE];
  * @note if b1 == 0 then there is no first section. if b1 == b2 then there is
  * no 2nd section. if  b2 == right + 1 then there is no 3rd section.
  */
-void ternary_partition(uint8_t *, uint8_t, size_t, size_t, size_t *, size_t *);
+void ternary_partition(uint8_t, size_t, size_t, size_t *, size_t *);
 
 /**
  * @brief given p, calculate p * lg(p)
