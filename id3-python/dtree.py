@@ -27,6 +27,7 @@ class DTree:
     param_names:    List[str]
     dataset:        List[Datapoint]
     dataset_size:   int
+    global_majority: int
 
     def __init__(self):
         self.root = None
@@ -34,11 +35,71 @@ class DTree:
         self.param_names = []
         self.dataset = []
         self.dataset_size = 0
+        self.global_majority = -1
+
+    def print_tree(self):
+        assert self.root is not None
+        self.print_tree_recursive(self.root, 0)
+    
+    def print_tree_recursive(self, node: Node, level: int):
+        for i, child in enumerate(node.children):
+            if child is None:
+                continue
+            string = "| " * level
+            assert(node.splitting_param is not None)
+            string += f"{self.param_names[node.splitting_param]} = {i} :"
+            if child.classification != -1:
+                string += f" {child.classification}"
+                print(string)
+            else:
+                print(string)
+                self.print_tree_recursive(child, level + 1)
+    
+    def print_tree_debug_pure(self, node: Node, level: int):
+        string = "| " * level
+        if node.splitting_param is not None:
+            string += f"{self.param_names[node.splitting_param]}"
+        else:
+            string += f"class: {node.classification}"
+        print(string)
+        for item in node.children:
+            if item is not None:
+                self.print_tree_debug_pure(item, level + 1)
+
+    def classify_data(self, data: Datapoint):
+        assert self.root is not None
+        return self.classify_data_recursive(self.root, data)
+
+    def classify_data_recursive(self, node: Node, data: Datapoint):
+        if node.classification != -1:
+            return node.classification
+        else:
+            assert node.splitting_param is not None
+            param: int = node.splitting_param
+            param_val: int = data.params[param]
+            if node.children[param_val] is not None:
+                child: Optional[Node] = node.children[param_val]
+                assert child is not None
+                return self.classify_data_recursive(child, data)
+            else:
+                if self.global_majority == -1:
+                    global_class: List[int] = [0, 0, 0]
+                    for i in range(self.dataset_size):
+                        global_class[self.dataset[i].classification] += 1
+                    self.global_majority = max(range(3), key= lambda x: global_class[x])
+
+                return self.global_majority
+
+
 
     def build_tree(self)->None:
+        ''' Build decision tree'''
         self.root = self.build_tree_recursive(l= 0, r= self.dataset_size - 1, remaining_params= [i for i in range(self.param_count)])
 
     def build_tree_recursive(self, l: int, r: int, remaining_params: List[int])->Node:
+        '''
+        Build tree recursively for a selected range and remaining params
+        '''
         curr_node: Node = Node(l= l, r= r)
         classification = self.classify_node(curr_node, remaining_params)
 
@@ -137,8 +198,12 @@ class DTree:
             children_distribution[current_child][datapoint.classification] += 1
             children_total[current_child] += 1
         for child in range(3):
+            if children_total[child] == 0:
+                continue
             for classification in range(3):
                 h_children[child] += entropy_term(children_distribution[child][classification] / children_total[child])
+        for child in range(3):
+            h_children[child] *= children_total[child] / sum(children_total)
 
         return h_node - sum(h_children)
     
