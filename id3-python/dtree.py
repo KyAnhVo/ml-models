@@ -11,18 +11,15 @@ class Datapoint:
 class Node:
     l:                  int
     r:                  int
-    remaining_params:   List[int]
+    splitting_param:    Optional[int]
     children:           'List[Optional[Node]]'
-    def __init__(self, 
-                 l: int = 0, 
-                 r: int = 0, 
-                 remaining_params: Optional[List[int]] = None, 
-                 parent: 'Optional[Node]' = None, 
-                 ):
+    classification:     Optional[int]
+    def __init__(self, l: int = 0, r: int = 0, parent: 'Optional[Node]' = None):
         self.l, self.r = l, r
-        self.remaining_params = remaining_params if remaining_params else []
         self.parent = parent
+        self.splitting_param = None
         self.children = [None, None, None]
+        self.classification = None
 
 class DTree:
     root:           Optional[Node]
@@ -38,7 +35,42 @@ class DTree:
         self.dataset = []
         self.dataset_size = 0
 
-    def classify_node(self, node: Node)->int:
+    def build_tree(self)->None:
+        self.root = self.build_tree_recursive(l= 0, r= self.dataset_size - 1, remaining_params= [i for i in range(self.param_count)])
+
+    def build_tree_recursive(self, l: int, r: int, remaining_params: List[int])->Node:
+        curr_node: Node = Node(l= l, r= r)
+        classification = self.classify_node(curr_node, remaining_params)
+
+        # if node classifiable (pure or no more remaining params), return
+        if classification != -1:
+            curr_node.classification = classification
+            return curr_node
+        
+        # find param with max IG to decision-ize more, then partition array
+        assert remaining_params is not None
+        chosen_param: int = max(remaining_params, key= lambda x: self.information_gain(curr_node, x, remaining_params))
+        curr_node.splitting_param = chosen_param
+        start_1: int
+        start_2: int
+        start_1, start_2 = self.partition_node(curr_node, chosen_param)
+        remaining_params.remove(chosen_param)
+        boundaries: List[Tuple[int, int]] = [(l, start_1 - 1), (start_1, start_2 - 1), (start_2, r)]
+
+        # iterate over 3 boundaries, check if child is available then return.
+        for i in range(3):
+            l_child, r_child = boundaries[i]
+            if l_child > r_child:
+                continue
+            else:
+                child: Node = self.build_tree_recursive(l_child, r_child, remaining_params)
+                child.parent = curr_node
+                curr_node.children[i] = child
+
+        # done
+        return curr_node
+
+    def classify_node(self, node: Node, remaining_params: List[int])->int:
         '''
         Classify a node. If a node is a true leaf then this function will choose
         its class. Else it will return -1. i.e. this can work as a de-facto
@@ -51,7 +83,7 @@ class DTree:
             - classification label if node is leaf
             - -1 otherwise
         '''
-        if len(node.remaining_params) == 0: # cant decision-ize anymore
+        if len(remaining_params) == 0: # cant decision-ize anymore
             count = [0, 0, 0]
             for i in range(node.l, node.r + 1):
                 count[self.dataset[i].classification] += 1
@@ -68,7 +100,7 @@ class DTree:
                     return -1
             return dominate_class
 
-    def information_gain(self, node: Node, param: int) -> float:
+    def information_gain(self, node: Node, param: int, remaining_params: List[int]) -> float:
         '''
         calculate the information gain of a potential node split based
         on the given param. Also checks if param is in node.remaining_params
@@ -82,10 +114,33 @@ class DTree:
         '''
         #TODO: complete IG function
 
-        if param not in node.remaining_params:
+        if param not in remaining_params:
             return -1
 
-        return 0
+        h_node: float = 0
+        h_children: List[float] = [0, 0, 0]
+
+        # calculate h_node
+        node_distribution: List[int] = [0, 0, 0]
+        node_total: int = node.r - node.l + 1
+        for i in range(node.l, node.r + 1):
+            node_distribution[self.dataset[i].classification] += 1
+        for i in range(0, 3):
+            h_node += entropy_term(node_distribution[i] / node_total)
+
+        # calculate children entropies
+        children_distribution: List[List[int]] = [[0 for _ in range(3)] for _ in range(3)]
+        children_total: List[int] = [0 for _ in range(3)]
+        for i in range(node.l, node.r + 1):
+            datapoint = self.dataset[i]
+            current_child = datapoint.params[param]
+            children_distribution[current_child][datapoint.classification] += 1
+            children_total[current_child] += 1
+        for child in range(3):
+            for classification in range(3):
+                h_children[child] += entropy_term(children_distribution[child][classification] / children_total[child])
+
+        return h_node - sum(h_children)
     
     def partition_node(self, node: Node, param: int) -> Tuple[int, int]:
         '''
