@@ -48,7 +48,8 @@ class DTree:
         Args:
             node (Node): a node that should be active
         Returns:
-            -1 if not pure node, else classification of node.
+            - classification label if node is leaf
+            - -1 otherwise
         '''
         if len(node.remaining_params) == 0: # cant decision-ize anymore
             count = [0, 0, 0]
@@ -66,13 +67,32 @@ class DTree:
                 if dominate_class != self.dataset[i].classification:
                     return -1
             return dominate_class
+
+    def information_gain(self, node: Node, param: int) -> float:
+        '''
+        calculate the information gain of a potential node split based
+        on the given param. Also checks if param is in node.remaining_params
+        first before moving on.
+
+        Args:
+            node (Node): node waiting to be splitted
+            param (int): param to split node
+        Returns:
+            if valid then return potential IG gain, else -1.0f.
+        '''
+        #TODO: complete IG function
+
+        if param not in node.remaining_params:
+            return -1
+
+        return 0
     
     def partition_node(self, node: Node, param: int) -> Tuple[int, int]:
         '''
         partitions the subarray from left to right to partitions which have
         param = 0 (1st part), param = 1 (2nd part), param = 2 (3rd part).
         Returns the tuple (b2, b3) containing the starting point of 2nd and 3rd parts.
-        i.e. the partitionss are: [node.l, b2 - 1], [b2, b3 - 1], [b3, r].
+        i.e. the partitionss are: `[node.l, b2 - 1]`, `[b2, b3 - 1]`, `[b3, r]`.
 
         Args:
             node (Node): a valid node hich is pointing to some correct subsection of
@@ -81,29 +101,23 @@ class DTree:
             b2, b3 (int, int): starting indices of partition 2 and partition 3, or
             (-1, -1) if error occurs.
         '''
-        if node.l >= node.r:
-            return (-1, -1)
-        
+        l = node.l
+        r = node.r
+
         # From this part, essentially Dutch National Flag in subarray dataset[l, r]
-        left, right, mid = node.l, node.l, node.r
-        for i in range(node.l, node.r + 1):
-            if i > left:
-                break
-            if self.dataset[i].params[param] == 0:
-                # swap left and mid
-                # then swap i and left
-                self.dataset[left], self.dataset[mid] = self.dataset[mid], self.dataset[left]
-                self.dataset[i], self.dataset[left] = self.dataset[left], self.dataset[i]
-                left += 1
+        low, mid, high = l, l, r
+        while mid <= high:
+            v = self.dataset[mid].params[param]
+            if v == 0:
+                self.dataset[low], self.dataset[mid] = self.dataset[mid], self.dataset[low]
+                low += 1
                 mid += 1
-            elif self.dataset[i].params[param] == 1:
-                # swap i and mid
-                self.dataset[mid], self.dataset[i] = self.dataset[i], self.dataset[mid]
+            elif v == 1:
                 mid += 1
             else:
-                self.dataset[right], self.dataset[i] = self.dataset[i], self.dataset[right]
-                right -= 1
-        return left, mid
+                self.dataset[mid], self.dataset[high] = self.dataset[high], self.dataset[mid]
+                high -= 1
+        return low, mid
 
     def print_dataset(self):
         '''
