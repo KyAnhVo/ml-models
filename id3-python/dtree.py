@@ -43,25 +43,40 @@ class DTree:
     
     def print_tree_recursive(self, node: Node, level: int):
         for i, child in enumerate(node.children):
+            # Print indentation
+            prefix = "| " * level
+        
+            # Print the attribute = value part
+            assert node.splitting_param is not None
+            line = f"{prefix}{self.param_names[node.splitting_param]} = {i} :"
+            
             if child is None:
-                continue
-            string = "| " * level
-            assert(node.splitting_param is not None)
-            string += f"{self.param_names[node.splitting_param]} = {i} :"
-            if child.classification != -1:
-                string += f" {child.classification}"
-                print(string)
+                if self.global_majority == -1:
+                    global_class: List[int] = [0, 0, 0]
+                    for i in range(self.dataset_size):
+                        global_class[self.dataset[i].classification] += 1
+                    self.global_majority = max(range(3), key= lambda x: global_class[x])
+                line += f" {self.global_majority}"
+                print(line)
+
+            elif child.classification is not None:
+                # Leaf node - print classification on same line
+                line += f" {child.classification}"
+                print(line)
             else:
-                print(string)
+                # Internal node - print line then recurse
+                print(line)
                 self.print_tree_recursive(child, level + 1)
     
     def print_tree_debug_pure(self, node: Node, level: int):
         string = "| " * level
-        if node.splitting_param is not None:
-            string += f"{self.param_names[node.splitting_param]}"
-        else:
-            string += f"class: {node.classification}"
+        string += f"l, r = {(node.l, node.r)} "
+        string += f"splitting_param = {node.splitting_param} "
+        string += f"classification = {node.classification} "
         print(string)
+        is_leaf = node.classification is None and node.splitting_param is not None
+        is_body = node.classification is not None and node.splitting_param is None
+        assert is_leaf or is_body
         for item in node.children:
             if item is not None:
                 self.print_tree_debug_pure(item, level + 1)
@@ -115,7 +130,8 @@ class DTree:
         start_1: int
         start_2: int
         start_1, start_2 = self.partition_node(curr_node, chosen_param)
-        remaining_params.remove(chosen_param)
+        children_remaining_params = remaining_params.copy()
+        children_remaining_params.remove(chosen_param)
         boundaries: List[Tuple[int, int]] = [(l, start_1 - 1), (start_1, start_2 - 1), (start_2, r)]
 
         # iterate over 3 boundaries, check if child is available then return.
@@ -124,7 +140,7 @@ class DTree:
             if l_child > r_child:
                 continue
             else:
-                child: Node = self.build_tree_recursive(l_child, r_child, remaining_params)
+                child: Node = self.build_tree_recursive(l_child, r_child, children_remaining_params)
                 child.parent = curr_node
                 curr_node.children[i] = child
 
