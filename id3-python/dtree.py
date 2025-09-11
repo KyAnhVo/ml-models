@@ -68,18 +68,28 @@ class DTree:
                 print(line)
                 self.print_tree_recursive(child, level + 1)
     
-    def print_tree_debug_pure(self, node: Node, level: int):
-        string = "| " * level
-        string += f"l, r = {(node.l, node.r)} "
-        string += f"splitting_param = {node.splitting_param} "
-        string += f"classification = {node.classification} "
-        print(string)
-        is_leaf = node.classification is None and node.splitting_param is not None
-        is_body = node.classification is not None and node.splitting_param is None
-        assert is_leaf or is_body
-        for item in node.children:
-            if item is not None:
-                self.print_tree_debug_pure(item, level + 1)
+    def print_tree_debug_pure(self, node: Node, level: int, available_params: List[int]):
+        line: str = "|-" * level
+        classification = node.classification
+        if classification is not None:
+            line += f"classification: {classification}"
+            print(line)
+        else:
+            assert node.splitting_param is not None
+            line += f"splitting param: {self.param_names[node.splitting_param]}"
+            print(line)
+            for param in available_params:
+                line = "| " * level + "  +"
+                ig: float = self.information_gain(node, param, available_params)
+                line += f"{self.param_names[param]:<10}: {ig}"
+                print(line)
+            children_available_params = available_params.copy()
+            children_available_params.remove(node.splitting_param)
+            for child in node.children:
+                if child is not None:
+                    self.print_tree_debug_pure(child, level + 1, children_available_params)
+
+
 
     def classify_data(self, data: Datapoint):
         assert self.root is not None
