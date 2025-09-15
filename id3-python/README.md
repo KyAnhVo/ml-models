@@ -42,7 +42,8 @@ The program prints to `stdout`:
 
 ---
 
-## Notes
-- **Learning Curve**: For part (d), the plot shown in the report was generated with a separate script using `matplotlib`. This script is **not part of the submission**, since only `numpy` and `pandas` are permitted in the implementation.  
+## Learning Curve comment
+- The learning curve graph was plotted in matplotlib, with the general algorithm being construct data and each time remove 5% of dataset and test until 5%, repeated 50 times.
+- As expected, the curves averaged out on a concaved non-decreasing graph, which plateus at about 87.x% at dataset size = 100%
 
----
+___
