@@ -45,7 +45,7 @@ def test_dtree(tree: dtree.DTree, fname: str)->Tuple[int, float]:
         total: int = 0
         correct: int = 0
         while line:
-            if line.strip != '':
+            if line.strip() != '':
                 params_str: List[str] = line.split()
                 params: List[int] = [int(x) for x in params_str]
                 vector: dtree.Datapoint = dtree.Datapoint(params[:-1], params[-1])
