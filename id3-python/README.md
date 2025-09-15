@@ -9,11 +9,7 @@
 
 ## Environment
 - Language: Python 3.6.9  
-- Libraries:  
-  - numpy 1.19.5  
-  - pandas 1.1.5  
-- No other non-standard libraries are used.  
-- Code runs on UTD Linux machines with the above environment.
+- Used pure Python, no non-standard libraries are used.
 
 ---
 
