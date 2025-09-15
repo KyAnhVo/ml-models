@@ -93,10 +93,12 @@ class DTree:
 
     def classify_data(self, data: Datapoint):
         assert self.root is not None
-        return self.classify_data_recursive(self.root, data)
+        classification = self.classify_data_recursive(self.root, data)
+        return classification
 
-    def classify_data_recursive(self, node: Node, data: Datapoint):
-        if node.classification != -1:
+    def classify_data_recursive(self, node: Node, data: Datapoint)->int:
+        if node.classification is not None:
+            assert node.classification is not None
             return node.classification
         else:
             assert node.splitting_param is not None
