@@ -1,8 +1,8 @@
 # CS 4375: Introduction to Machine Learning (Honors)  
 **Assignment 1, Part II: Decision Tree Induction**  
 
-**Name:** [Your Full Name]  
-**NetID:** [Your NetID]  
+**Name:** Ky Anh Vo
+**NetID:** kxv220016
 **Group Size:** 1 (individual submission)
 
 ---
@@ -47,8 +47,6 @@ The program prints to `stdout`:
 ---
 
 ## Notes
-- Tie-breaking rules, entropy calculation, and leaf class handling follow the assignment description.  
-- Empty lines in data files are skipped.  
 - **Learning Curve**: For part (d), the plot shown in the report was generated with a separate script using `matplotlib`. This script is **not part of the submission**, since only `numpy` and `pandas` are permitted in the implementation.  
 
 ---
