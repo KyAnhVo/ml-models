@@ -45,5 +45,7 @@ The program prints to `stdout`:
 ## Learning Curve comment
 - The learning curve graph was plotted in matplotlib, with the general algorithm being construct data and each time remove 5% of dataset and test until 5%, repeated 50 times.
 - As expected, the curves averaged out on a concaved non-decreasing graph, which plateus at about 87.x% at dataset size = 100%
+- There are points on the the left (small dataset) that are unexpectedly high, which is most likely caused by "lucky" deletions that lead to high accuracy, but overall the trend is as stated above.
+- We note that the right side (large train dataset) doesn't have a lot of variance, which can be explained by the fact that there is not much difference between 80, 85, 90, 95, 100 percentile ranks, and each delete contributes to a very small change in average accuracy. 
 
 ___
