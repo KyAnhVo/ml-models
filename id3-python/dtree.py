@@ -56,16 +56,16 @@ class DTree:
                     for i in range(self.dataset_size):
                         global_class[self.dataset[i].classification] += 1
                     self.global_majority = max(range(3), key= lambda x: global_class[x])
-                line += f" {self.global_majority}"
+                line += f" {self.global_majority} "
                 print(line)
 
             elif child.classification is not None:
                 # Leaf node - print classification on same line
-                line += f" {child.classification}"
+                line += f" {child.classification} "
                 print(line)
             else:
                 # Internal node - print line then recurse
-                print(line)
+                print(line, ' ')
                 self.print_tree_recursive(child, level + 1)
     
     def print_tree_debug_pure(self, node: Node, level: int, available_params: List[int]):
@@ -174,14 +174,29 @@ class DTree:
         '''
         if len(remaining_params) == 0: # cant decision-ize anymore
             count = [0, 0, 0]
+            global_count = [0, 0, 0]
             for i in range(node.l, node.r + 1):
                 count[self.dataset[i].classification] += 1
-            if count[0] >= count[1] and count[0] >= count[2]:
-                return 0
-            elif count[1] >= count[2]:
-                return 1
-            else:
-                return 2
+            for i in range(self.dataset_size):
+                global_count[self.dataset[i].classification] += 1
+
+
+           # Find max local count
+            max_local = max(count)
+            locally_tied = [i for i in range(3) if count[i] == max_local]
+            
+            if len(locally_tied) == 1: # only 1 max locally
+                return locally_tied[0]
+            
+            max_global_among_tied = max(global_count[i] for i in locally_tied)
+            globally_preferred = [i for i in locally_tied if global_count[i] == max_global_among_tied]
+            
+            if len(globally_preferred) == 1: # only 1 max globally
+                return globally_preferred[0]
+            
+            return min(globally_preferred)
+
+
         else:
             dominate_class = self.dataset[node.l].classification
             for i in range(node.l + 1, node.r + 1):
