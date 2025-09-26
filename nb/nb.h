@@ -55,7 +55,7 @@ public:
      *
      * @returns probability that a given data is of class y
      */
-    float p_class(int);
+    double p_class(int);
 
     /**
      * Calculate P(x_param = val | y)
@@ -66,7 +66,7 @@ public:
      *
      * @returns the probability that x_param = val given the data is of class y
      */
-    float p_conditional(int, int, int);
+    double p_conditional(int, int, int);
 
     /**
      * Given an input vector, predict the class with the highest probability
@@ -76,6 +76,14 @@ public:
      * @returns the class most likely represented by the input vector
      */
     int predict(const std::vector<int>&);
+
+    /**
+     * Construct a probability string:
+     * p(class) p(param1 = val1 | class) ... p(paramn = valj | class)
+     * for each class
+     * @returns the string of such class
+     */
+    std::string probability_string();
 };
 
 #endif
