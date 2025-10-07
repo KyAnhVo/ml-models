@@ -97,9 +97,9 @@ int NB::predict(const std::vector<int>& input) {
         for (int param = 0; param < this->param_count; param++) {
             if (input[param] < 0 || input[param] >= this->param_domains[param])
                 return -1;
-            val += std::log(this->p_conditional(param, input[param], curr_class) + 1);
+            val += std::log(this->p_conditional(param, input[param], curr_class));
         }
-        val += std::log(this->p_class(curr_class) + 1);
+        val += std::log(this->p_class(curr_class));
         if (val > max_val) {
             chosen_class = curr_class;
             max_val = val;
