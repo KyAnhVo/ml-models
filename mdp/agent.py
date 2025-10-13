@@ -7,20 +7,34 @@ FORWARD_ACCEL = 1
 BACKWARD_ACCEL = 0
 
 """
-Boundaries for velocity
+Notes on boundaries for velocity
 
-This may sound stupid, so hear me out: 
 We know that if thing falls fast enough, there is no recovery.
-Similarly, if cart goes fast enough, there is no recovery.
+Similarly, if cart goes fast enough, there is no recovery before it wee-woo out of track.
 Hence, just set an upper bound for both.
 
 Also 1: these values can be tested out, so feel free to test things out.
 
 Also 2: don't cook too hard or we get 100GB of Q-table and I don't have
 the RAM for that.
+
+Also 3: PLEASE make sure range(value_bound) is divisible by its intervals.
 """ 
 
+# Intervals and velocity bounds
 
+# Intervals
+X_INTERVAL: float = 0.1
+X_DOT_INTERVAL: float = 0.1
+THETA_INTERVAL: float = 0.5
+THETA_DOT_INTERVAL: float = 1
+
+# velocity bounds
+X_DOT_MAX = 30
+THETA_DOT_MAX = 12
+# Just negate the 2 max bounds for min bounds
+X_DOT_MIN = -X_DOT_MAX
+THETA_DOT_MIN = -THETA_DOT_MAX
 
 
 class QLearningAgent:
@@ -44,10 +58,15 @@ class QLearningAgent:
         self.policy = policy
         random.seed(11)
         np.random.seed(11)
-        # you may add your code for initialization here, e.g., the Q-table
-        
 
-        pass
+        # q-table size
+        theta_size      = int(24 / THETA_INTERVAL)
+        theta_dot_size  = int((THETA_DOT_MAX - THETA_DOT_MIN) / THETA_INTERVAL)
+        x_size          = int(track_length * 2 / X_INTERVAL)
+        x_dot_size      = int((X_DOT_MAX - X_DOT_MIN) / X_DOT_INTERVAL)
+        action_size     = 2
+        self.qtable     = np.zeros((x_size, x_dot_size, theta_size, theta_dot_size, action_size), 
+                                   dtype=np.float32)
 
     def reset(self):
         """
@@ -65,6 +84,8 @@ class QLearningAgent:
         :param theta_dot: the angular velocity of the pole
         :return:
         """
+
+        # NOTE: Reminder to switch rad to degree first
         if self.policy == 'mixed' and random.random() < self.epsilon:
             action = random.sample([FORWARD_ACCEL, BACKWARD_ACCEL], 1)[0]
         else:
@@ -86,7 +107,7 @@ class QLearningAgent:
             rewards is reward.
         :return:
         """
-        # fill your code here to update your Q-table
+        # NOTE: Reminder to switch rad to degree first
         raise NotImplementedError
 
     # you may add more methods here for your needs. E.g., methods for discretizing the variables.
