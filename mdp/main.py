@@ -23,7 +23,7 @@ BACKWARD_ACCEL = 0
 NO_ACCEL = -1
 
 # switches
-DEBUG = True
+DEBUG = False
 
 
 class PoleBalancing:
@@ -72,17 +72,18 @@ class PoleBalancing:
         return False
 
 
-def main():
+def main(chosen_policy, chosen_track_length):
     # set different configurations here
     lr = 0.2                # learning rate
     gamma = 0.99            # discount factor
-    track_length = 2.4      # how far the ends of the track are from the origin.
+    track_length = chosen_track_length      # how far the ends of the track are from the origin.
                             # e.g., while track_length is 2.4,
                             # the x-coordinate of the left end of the track is -2.4,
                             # the x-coordinate of the right end of the track is 2.4,
                             # and the x-coordinate of the the cart is 0 initially.
     epsilon = 0.005         # epsilon for the mixed policy
-    policy = 'mixed'        # policy can be 'mixed' or 'greedy'
+    policy = chosen_policy        # policy can be 'mixed' or 'greedy'
+
 
     # init
     problem = PoleBalancing()
@@ -113,7 +114,8 @@ def main():
                 best_steps = steps
                 best_trial = failures
             if failures % t == 0:
-                print(f'Trial {failures} was {steps} steps. Current max number of steps is {best_steps}')
+                _ = 0
+                # print(f'Trial {failures} was {steps} steps. Current max number of steps is {best_steps}')
             # Call agent with negative feedback for learning
             agent.update_Q(cur_state, action, next_state, -1)
             agent.reset()
@@ -128,7 +130,13 @@ def main():
     else:
         print(f'Pole balanced successfully for at least {steps - 1} steps in trial {failures + 1}.')
 
+    print(f"learning rate: {lr}\ndiscount factor: {gamma}\ntrack length: {track_length}\nepsilon for mixed policy: {epsilon}\npolicy: {policy}\n")
+
 
 
 if __name__ == '__main__':
-    main()
+    policies = ['mixed', 'greedy']
+    track_lengths = [1, 1.5, 2, 2.4, 2.5, 3.0]
+    for policy in policies:
+        for track_length in track_lengths:
+            main(policy, track_length)
