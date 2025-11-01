@@ -122,28 +122,56 @@ class NeuralNetwork:
 
         self._inner_outputs[0] = self.sigmoid(
                 self.enter_weights @ self._attribute_inputs)
+        print(self._inner_outputs[0])
         
         for i in range(0, self.layer_count - 1):
             layer_input = np.append(1, self._inner_outputs[i])
             layer_weights = self.inner_weights[i]
-            print(layer_input)
-            print(layer_weights)
             try:
                 self._inner_outputs[i + 1] = self.sigmoid(
                         layer_weights @ layer_input)
             except:
-                print(f"ERR:\nlayer input {layer_input.shape}")
-                print(f"layer weights {layer_weights.shape}")
                 exit(0)
 
-        print("--------------------------------------------")
+        
 
         output_matrix = self.exit_weights @ np.append(
                 1, self._inner_outputs[self.layer_count - 1])
-        print(output_matrix)
+        self._output = self.sigmoid(output_matrix).item()
+        print(self._output)
         return self._output
 
     def sigmoid(self, x: np.ndarray)->np.ndarray:
         return 1 / (1 + np.exp(-x))
 
 
+def main():
+    '''For debug only
+    '''
+    nn = NeuralNetwork(attribute_count= 2, layer_count= 3, perceptron_per_layer_count= 2, training_dat_count= 1)
+    nn.enter_weights = np.array([
+        [1, 2, 1.5],
+        [-1, 0, -0.5]
+        ], dtype=np.float32)
+    print(nn.enter_weights)
+    nn.inner_weights = np.array([
+            [
+                [3, 3, 3.3],
+                [4, 4, 4.4]
+            ],
+            [
+                [10, 10, 10.1],
+                [-2, -3, -15.5]
+            ]
+        ], dtype=np.float32)
+    print(nn.inner_weights)
+    nn.exit_weights = np.array([
+        5, 5.5, 5.55
+        ], dtype=np.float32)
+    print(nn.exit_weights)
+    print("--------------------------------------------")
+    print(nn.forward(np.array([1, 2], dtype=np.float32)))
+
+
+if __name__ == '__main__':
+    main()
