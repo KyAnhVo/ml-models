@@ -1,6 +1,6 @@
 import numpy        as np
 import numpy.typing as npt
-import math
+from typing import List
 
 class NeuralNetwork:    
     training_input:     npt.NDArray[np.float32]
@@ -200,6 +200,10 @@ class NeuralNetwork:
         self.exit_weights = (self.exit_weights + grad).astype(np.float32)
 
         pass
+
+    def predict(self, x: List[float]):
+        res = self.forward(np.array(x, dtype=np.float32))
+        return res.tolist()
 
     def sigmoid(self, x: npt.NDArray[np.float32])->npt.NDArray[np.float32]:
         result = np.float32(1) / (np.float32(1) + np.exp(-x))
