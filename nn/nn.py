@@ -1,47 +1,57 @@
 import numpy        as np
 import numpy.typing as npt
+import math
 
 class NeuralNetwork:    
     training_input:     npt.NDArray[np.float32]
     training_output:    npt.NDArray[np.float32]
-    enter_weights:      npt.NDArray[np.float32]
-    inner_weights:      npt.NDArray[np.float32]
-    exit_weights:       npt.NDArray[np.float32]
 
-    _attribute_inputs:  npt.NDArray[np.float32]
+    enter_weights:      npt.NDArray[np.float32] # (m-1, n)
+    inner_weights:      npt.NDArray[np.float32] # (l, m-1, m)
+    exit_weights:       npt.NDArray[np.float32] # (k, m)
 
-    _inner_outputs:     npt.NDArray[np.float32]
-    _inner_errors:      npt.NDArray[np.float32]
+    _attribute_inputs:  npt.NDArray[np.float32] # (n,)
+
+    _inner_outputs:     npt.NDArray[np.float32] # (l, m-1)
+    _inner_errors:      npt.NDArray[np.float32] # (l, m-1)
     
-    _output:            np.float32
-    _error:             np.float32
+    _output:            npt.NDArray[np.float32] # (k)
+    _error:             npt.NDArray[np.float32] # (k)
 
     nodes_per_layer:    int
     layer_count:        int
     attribute_count:    int
     training_dat_count: int
+    class_count:        int
+
+    lr:                 np.float32
 
     def __init__(
             self,
             attribute_count: int,
             layer_count: int, 
             perceptron_per_layer_count: int,
-            training_dat_count: int
+            training_dat_count: int,
+            lr: float,
+            class_count: int
             ):
 
-        self._output = np.float32(0)
-        self._error = np.float32(0)
+        self.lr = np.float32(lr)
 
         self.nodes_per_layer    = perceptron_per_layer_count
         self.layer_count        = layer_count
         self.attribute_count    = attribute_count
         self.training_dat_count = training_dat_count
+        self.class_count        = class_count
+
+        self._output = np.empty(shape=(self.class_count,), dtype=np.float32)
+        self._error  = np.empty(shape=(self.class_count,), dtype=np.float32)
 
         self.training_input = np.empty(
                 shape=(training_dat_count, attribute_count),
                 dtype=np.float32
                 )
-        self.training_ouput = np.empty(
+        self.training_output = np.empty(
                 shape=(training_dat_count,),
                 dtype=np.float32
                 )
@@ -68,7 +78,7 @@ class NeuralNetwork:
         # exit_weights[i] := weight from inner layer n-1 node i
         # to result layer node
         self.exit_weights = np.zeros(
-                shape=(self.nodes_per_layer + 1,),
+                shape=(self.class_count, self.nodes_per_layer + 1,),
                 dtype=np.float32
                 )
 
@@ -81,11 +91,13 @@ class NeuralNetwork:
                 shape=(self.layer_count, self.nodes_per_layer),
                 dtype=np.float32
                 )
+        self._inner_errors = np.empty(
+                shape=(self.layer_count, self.nodes_per_layer,),
+                dtype=np.float32
+                )
 
-
-
-    def forward(self, x: npt.NDArray[np.float32])->np.float32:
-        '''returns a val in (0, 1) from input with dummy 1 attribute at the end
+    def forward(self, x: npt.NDArray[np.float32])->npt.NDArray[np.float32]:
+        '''returns a val in (0, 1) from input without dummy 1 attribute at the end
         
         Parameters
         ----------
@@ -98,7 +110,7 @@ class NeuralNetwork:
             Sigmoid prediction value
         '''
         
-        self._attribute_inputs = np.append(1, x)
+        self._attribute_inputs = np.append(arr=x, values=np.float32(1))
         
         # Size logic (obviously there's the sigmoid, but let's not care)
         #
@@ -110,67 +122,99 @@ class NeuralNetwork:
         #
         # So    self._inner_outputs[0]
         #           = (self.attribute_list @ self.enter_weights)
-        #           = ((n,) @ (n, m)) = (1, m)
+        #           = ((n,) @ (n, m-1)) = (1, m-1)
         # And   self._inner_outputs[i+1]
         #           = (self.inner_weights[i].append(1) @ self._inner_outputs[i])
-        #           = ((m, m+1) @ (m+1,)).append(1)
-        #           = (m,)
+        #           = ((m-1, m) @ (m,)).append(1)
+        #           = (m-1,)
         # And   self._output
-        #           = (self._inner_outputs[l-1].append(1) @ self.exit_weights)
-        #           = ((m,) @ (m,))
-        #           = constant (or I suppose so?)
+        #           = (self.exit_weights[n-1].append(1) @ self._inner_outputs[n-1])
+        #           = ((k, m), (m,))
+        #           = (k,)
 
         self._inner_outputs[0] = self.sigmoid(
                 self.enter_weights @ self._attribute_inputs)
-        print(self._inner_outputs[0])
         
         for i in range(0, self.layer_count - 1):
-            layer_input = np.append(1, self._inner_outputs[i])
+            layer_input = np.append(arr=self._inner_outputs[i], values=1).astype(np.float32)
             layer_weights = self.inner_weights[i]
-            try:
-                self._inner_outputs[i + 1] = self.sigmoid(
-                        layer_weights @ layer_input)
-            except:
-                exit(0)
+            self._inner_outputs[i + 1] = self.sigmoid(
+                    layer_weights @ layer_input)
 
-        
-
-        output_matrix = self.exit_weights @ np.append(
-                1, self._inner_outputs[self.layer_count - 1])
-        self._output = self.sigmoid(output_matrix).item()
-        print(self._output)
+        last_input = np.append(arr=self._inner_outputs[self.layer_count-1], values=1).astype(np.float32)
+        output_matrix = (self.exit_weights @ last_input).astype(np.float32)
+        self._output = self.sigmoid(output_matrix)
         return self._output
 
-    def sigmoid(self, x: np.ndarray)->np.ndarray:
-        return 1 / (1 + np.exp(-x))
+    def backward(self, true_output: npt.NDArray[np.float32]):
+        # Output error
+        self._error = (self._output * (np.float32(1) - self._output) * (true_output - self._output)).astype(np.float32)
+        
+        # Latest hidden unit error
+
+        o = np.append(arr=self._inner_outputs[self.layer_count - 1], values=1)  # (m,)
+        w = self.exit_weights                                                   # (k, m)
+        d = self._error                                                         # (k)
+        last_inner_err = o * (1 - o) * (d @ w)                                  # (m,)
+        self._inner_errors[self.layer_count - 1] = last_inner_err[:-1]          # (m-1,)
+
+        # other inner errors
+
+        for i in range(self.layer_count - 2, -1, -1):
+            o = np.append(values=1, arr=self._inner_outputs[i]) # (m,)
+            w = self.inner_weights[i]                           # (m-1, m)
+            d = self._inner_errors[i+1]                         # (m-1,)
+            err = o * (1 - o) * (d @ w)                         # (m,)
+            self._inner_errors[i] = err[:-1]                    # (m-1,)
+        
+        # weight calculation as follow:
+        # 
+        # let in := size of layer l (with bias), out := size of layer l+1 (no bias)
+        #
+        # let w := weight[i]    (out, in)
+        # let e := err[i+1]     (out,)
+        # let o := output[i]    (in,)
+        #
+        # we calculate by:
+        #   let E := (out, in), let each column be e
+        #   let O := (out, in), let each row be o
+        #   so w' := w + lr * E * O
+
+        # calculate enter weights
+        e = self._inner_errors[0]
+        o = self._attribute_inputs
+        grad = self.lr * np.outer(e, o)
+        self.enter_weights = self.enter_weights + grad
+
+        # calculate weights between hidden layers
+        for i in range(0, self.layer_count - 1):
+            e = self._inner_errors[i + 1]
+            o = np.append(self._inner_outputs[i], 1)
+            grad = self.lr * np.outer(e, o)
+            self.inner_weights[i] = self.inner_weights[i] + grad
+        
+        # calculate exit weights
+        e = self._error
+        o = np.append(self._inner_outputs[self.layer_count - 1], 1)
+        grad = self.lr * np.outer(e, o)
+        self.exit_weights = (self.exit_weights + grad).astype(np.float32)
+
+        pass
+
+    def sigmoid(self, x: npt.NDArray[np.float32])->npt.NDArray[np.float32]:
+        result = np.float32(1) / (np.float32(1) + np.exp(-x))
+        return result.astype(np.float32)
+    
+    def randomize_weights(self):
+        pass
+
+##################################################################################
 
 
 def main():
     '''For debug only
     '''
-    nn = NeuralNetwork(attribute_count= 2, layer_count= 3, perceptron_per_layer_count= 2, training_dat_count= 1)
-    nn.enter_weights = np.array([
-        [1, 2, 1.5],
-        [-1, 0, -0.5]
-        ], dtype=np.float32)
-    print(nn.enter_weights)
-    nn.inner_weights = np.array([
-            [
-                [3, 3, 3.3],
-                [4, 4, 4.4]
-            ],
-            [
-                [10, 10, 10.1],
-                [-2, -3, -15.5]
-            ]
-        ], dtype=np.float32)
-    print(nn.inner_weights)
-    nn.exit_weights = np.array([
-        5, 5.5, 5.55
-        ], dtype=np.float32)
-    print(nn.exit_weights)
-    print("--------------------------------------------")
-    print(nn.forward(np.array([1, 2], dtype=np.float32)))
+    pass
 
 
 if __name__ == '__main__':
