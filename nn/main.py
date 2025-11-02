@@ -19,10 +19,10 @@ def main():
 
         x_train = []
         y_train = []
-
         for row in train_rows:
             x_train.append([float(s) for s in row[:-1]])
             y_train.append(float(row[-1]))
+        train_set_size = len(x_train)
 
         x_test = []
         y_test = []
@@ -30,6 +30,7 @@ def main():
         for row in test_rows:
             x_test.append([float(s) for s in row[:-1]])
             y_test.append(float(row[-1]))
+        test_set_size = len(x_test)
 
         nn = NeuralNetwork(attribute_count=attribute_count,
                            layer_count=layer_count,
@@ -37,13 +38,11 @@ def main():
                            lr=lr,
                            training_dat_count=len(x_train),
                            class_count=1)
-        
+
         # train
         for epoch in range(max_epoch):
-            index = epoch % len(x_train)
+            index = epoch % train_set_size
             prediction = nn.predict(x_train[index])[0]
-            if epoch % 100 == 0:
-                print(prediction)
             nn.backward(np.array([y_test[index]], dtype=np.float32))
 
 
