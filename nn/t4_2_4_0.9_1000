@@ -1,0 +1,5000 @@
+In iteration 1: 
+Forward pass output: 0.5000 
+Average squared error on training set (100 instances): 0.2330 
+Average squared error on test set (400 instances): 0.2282 
+
+In iteration 2: 
+Forward pass output: 0.4440 
+Average squared error on training set (100 instances): 0.2234 
+Average squared error on test set (400 instances): 0.2145 
+
+In iteration 3: 
+Forward pass output: 0.3959 
+Average squared error on training set (100 instances): 0.2189 
+Average squared error on test set (400 instances): 0.2066 
+
+In iteration 4: 
+Forward pass output: 0.3557 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2025 
+
+In iteration 5: 
+Forward pass output: 0.3225 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2008 
+
+In iteration 6: 
+Forward pass output: 0.2950 
+Average squared error on training set (100 instances): 0.2199 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 7: 
+Forward pass output: 0.2721 
+Average squared error on training set (100 instances): 0.2221 
+Average squared error on test set (400 instances): 0.2011 
+
+In iteration 8: 
+Forward pass output: 0.2528 
+Average squared error on training set (100 instances): 0.2246 
+Average squared error on test set (400 instances): 0.2022 
+
+In iteration 9: 
+Forward pass output: 0.2363 
+Average squared error on training set (100 instances): 0.2272 
+Average squared error on test set (400 instances): 0.2035 
+
+In iteration 10: 
+Forward pass output: 0.2222 
+Average squared error on training set (100 instances): 0.2297 
+Average squared error on test set (400 instances): 0.2051 
+
+In iteration 11: 
+Forward pass output: 0.2100 
+Average squared error on training set (100 instances): 0.2322 
+Average squared error on test set (400 instances): 0.2066 
+
+In iteration 12: 
+Forward pass output: 0.1992 
+Average squared error on training set (100 instances): 0.2346 
+Average squared error on test set (400 instances): 0.2082 
+
+In iteration 13: 
+Forward pass output: 0.1898 
+Average squared error on training set (100 instances): 0.2368 
+Average squared error on test set (400 instances): 0.2097 
+
+In iteration 14: 
+Forward pass output: 0.1813 
+Average squared error on training set (100 instances): 0.2390 
+Average squared error on test set (400 instances): 0.2113 
+
+In iteration 15: 
+Forward pass output: 0.1738 
+Average squared error on training set (100 instances): 0.2299 
+Average squared error on test set (400 instances): 0.2052 
+
+In iteration 16: 
+Forward pass output: 0.2089 
+Average squared error on training set (100 instances): 0.2324 
+Average squared error on test set (400 instances): 0.2068 
+
+In iteration 17: 
+Forward pass output: 0.1983 
+Average squared error on training set (100 instances): 0.2348 
+Average squared error on test set (400 instances): 0.2083 
+
+In iteration 18: 
+Forward pass output: 0.1889 
+Average squared error on training set (100 instances): 0.2370 
+Average squared error on test set (400 instances): 0.2099 
+
+In iteration 19: 
+Forward pass output: 0.1806 
+Average squared error on training set (100 instances): 0.2281 
+Average squared error on test set (400 instances): 0.2041 
+
+In iteration 20: 
+Forward pass output: 0.2174 
+Average squared error on training set (100 instances): 0.2306 
+Average squared error on test set (400 instances): 0.2056 
+
+In iteration 21: 
+Forward pass output: 0.2058 
+Average squared error on training set (100 instances): 0.2331 
+Average squared error on test set (400 instances): 0.2072 
+
+In iteration 22: 
+Forward pass output: 0.1956 
+Average squared error on training set (100 instances): 0.2247 
+Average squared error on test set (400 instances): 0.2022 
+
+In iteration 23: 
+Forward pass output: 0.2360 
+Average squared error on training set (100 instances): 0.2188 
+Average squared error on test set (400 instances): 0.2006 
+
+In iteration 24: 
+Forward pass output: 0.2852 
+Average squared error on training set (100 instances): 0.2181 
+Average squared error on test set (400 instances): 0.2047 
+
+In iteration 25: 
+Forward pass output: 0.3424 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2017 
+
+In iteration 26: 
+Forward pass output: 0.3117 
+Average squared error on training set (100 instances): 0.2187 
+Average squared error on test set (400 instances): 0.2006 
+
+In iteration 27: 
+Forward pass output: 0.2862 
+Average squared error on training set (100 instances): 0.2207 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 28: 
+Forward pass output: 0.2648 
+Average squared error on training set (100 instances): 0.2230 
+Average squared error on test set (400 instances): 0.2014 
+
+In iteration 29: 
+Forward pass output: 0.2467 
+Average squared error on training set (100 instances): 0.2255 
+Average squared error on test set (400 instances): 0.2026 
+
+In iteration 30: 
+Forward pass output: 0.2312 
+Average squared error on training set (100 instances): 0.2193 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 31: 
+Forward pass output: 0.2793 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2039 
+
+In iteration 32: 
+Forward pass output: 0.3356 
+Average squared error on training set (100 instances): 0.2236 
+Average squared error on test set (400 instances): 0.2149 
+
+In iteration 33: 
+Forward pass output: 0.3974 
+Average squared error on training set (100 instances): 0.2190 
+Average squared error on test set (400 instances): 0.2069 
+
+In iteration 34: 
+Forward pass output: 0.3574 
+Average squared error on training set (100 instances): 0.2276 
+Average squared error on test set (400 instances): 0.2209 
+
+In iteration 35: 
+Forward pass output: 0.4202 
+Average squared error on training set (100 instances): 0.2208 
+Average squared error on test set (400 instances): 0.2103 
+
+In iteration 36: 
+Forward pass output: 0.3765 
+Average squared error on training set (100 instances): 0.2180 
+Average squared error on test set (400 instances): 0.2044 
+
+In iteration 37: 
+Forward pass output: 0.3401 
+Average squared error on training set (100 instances): 0.2243 
+Average squared error on test set (400 instances): 0.2160 
+
+In iteration 38: 
+Forward pass output: 0.4020 
+Average squared error on training set (100 instances): 0.2193 
+Average squared error on test set (400 instances): 0.2075 
+
+In iteration 39: 
+Forward pass output: 0.3614 
+Average squared error on training set (100 instances): 0.2284 
+Average squared error on test set (400 instances): 0.2220 
+
+In iteration 40: 
+Forward pass output: 0.4240 
+Average squared error on training set (100 instances): 0.2451 
+Average squared error on test set (400 instances): 0.2439 
+
+In iteration 41: 
+Forward pass output: 0.4858 
+Average squared error on training set (100 instances): 0.2671 
+Average squared error on test set (400 instances): 0.2707 
+
+In iteration 42: 
+Forward pass output: 0.5424 
+Average squared error on training set (100 instances): 0.2914 
+Average squared error on test set (400 instances): 0.2992 
+
+In iteration 43: 
+Forward pass output: 0.5917 
+Average squared error on training set (100 instances): 0.3157 
+Average squared error on test set (400 instances): 0.3271 
+
+In iteration 44: 
+Forward pass output: 0.6333 
+Average squared error on training set (100 instances): 0.2805 
+Average squared error on test set (400 instances): 0.2865 
+
+In iteration 45: 
+Forward pass output: 0.5707 
+Average squared error on training set (100 instances): 0.2535 
+Average squared error on test set (400 instances): 0.2543 
+
+In iteration 46: 
+Forward pass output: 0.5095 
+Average squared error on training set (100 instances): 0.2354 
+Average squared error on test set (400 instances): 0.2315 
+
+In iteration 47: 
+Forward pass output: 0.4536 
+Average squared error on training set (100 instances): 0.2248 
+Average squared error on test set (400 instances): 0.2168 
+
+In iteration 48: 
+Forward pass output: 0.4051 
+Average squared error on training set (100 instances): 0.2393 
+Average squared error on test set (400 instances): 0.2365 
+
+In iteration 49: 
+Forward pass output: 0.4672 
+Average squared error on training set (100 instances): 0.2270 
+Average squared error on test set (400 instances): 0.2199 
+
+In iteration 50: 
+Forward pass output: 0.4168 
+Average squared error on training set (100 instances): 0.2427 
+Average squared error on test set (400 instances): 0.2408 
+
+In iteration 51: 
+Forward pass output: 0.4784 
+Average squared error on training set (100 instances): 0.2640 
+Average squared error on test set (400 instances): 0.2670 
+
+In iteration 52: 
+Forward pass output: 0.5354 
+Average squared error on training set (100 instances): 0.2423 
+Average squared error on test set (400 instances): 0.2403 
+
+In iteration 53: 
+Forward pass output: 0.4771 
+Average squared error on training set (100 instances): 0.2287 
+Average squared error on test set (400 instances): 0.2224 
+
+In iteration 54: 
+Forward pass output: 0.4255 
+Average squared error on training set (100 instances): 0.2453 
+Average squared error on test set (400 instances): 0.2442 
+
+In iteration 55: 
+Forward pass output: 0.4865 
+Average squared error on training set (100 instances): 0.2305 
+Average squared error on test set (400 instances): 0.2249 
+
+In iteration 56: 
+Forward pass output: 0.4338 
+Average squared error on training set (100 instances): 0.2223 
+Average squared error on test set (400 instances): 0.2128 
+
+In iteration 57: 
+Forward pass output: 0.3886 
+Average squared error on training set (100 instances): 0.2185 
+Average squared error on test set (400 instances): 0.2059 
+
+In iteration 58: 
+Forward pass output: 0.3508 
+Average squared error on training set (100 instances): 0.2261 
+Average squared error on test set (400 instances): 0.2186 
+
+In iteration 59: 
+Forward pass output: 0.4121 
+Average squared error on training set (100 instances): 0.2201 
+Average squared error on test set (400 instances): 0.2091 
+
+In iteration 60: 
+Forward pass output: 0.3705 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2039 
+
+In iteration 61: 
+Forward pass output: 0.3358 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2014 
+
+In iteration 62: 
+Forward pass output: 0.3069 
+Average squared error on training set (100 instances): 0.2190 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 63: 
+Forward pass output: 0.2827 
+Average squared error on training set (100 instances): 0.2209 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 64: 
+Forward pass output: 0.2624 
+Average squared error on training set (100 instances): 0.2232 
+Average squared error on test set (400 instances): 0.2015 
+
+In iteration 65: 
+Forward pass output: 0.2450 
+Average squared error on training set (100 instances): 0.2257 
+Average squared error on test set (400 instances): 0.2027 
+
+In iteration 66: 
+Forward pass output: 0.2302 
+Average squared error on training set (100 instances): 0.2282 
+Average squared error on test set (400 instances): 0.2041 
+
+In iteration 67: 
+Forward pass output: 0.2173 
+Average squared error on training set (100 instances): 0.2306 
+Average squared error on test set (400 instances): 0.2056 
+
+In iteration 68: 
+Forward pass output: 0.2060 
+Average squared error on training set (100 instances): 0.2228 
+Average squared error on test set (400 instances): 0.2014 
+
+In iteration 69: 
+Forward pass output: 0.2476 
+Average squared error on training set (100 instances): 0.2181 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 70: 
+Forward pass output: 0.2974 
+Average squared error on training set (100 instances): 0.2188 
+Average squared error on test set (400 instances): 0.2064 
+
+In iteration 71: 
+Forward pass output: 0.3545 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2025 
+
+In iteration 72: 
+Forward pass output: 0.3226 
+Average squared error on training set (100 instances): 0.2214 
+Average squared error on test set (400 instances): 0.2114 
+
+In iteration 73: 
+Forward pass output: 0.3819 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2051 
+
+In iteration 74: 
+Forward pass output: 0.3455 
+Average squared error on training set (100 instances): 0.2250 
+Average squared error on test set (400 instances): 0.2170 
+
+In iteration 75: 
+Forward pass output: 0.4061 
+Average squared error on training set (100 instances): 0.2197 
+Average squared error on test set (400 instances): 0.2083 
+
+In iteration 76: 
+Forward pass output: 0.3658 
+Average squared error on training set (100 instances): 0.2290 
+Average squared error on test set (400 instances): 0.2228 
+
+In iteration 77: 
+Forward pass output: 0.4270 
+Average squared error on training set (100 instances): 0.2455 
+Average squared error on test set (400 instances): 0.2444 
+
+In iteration 78: 
+Forward pass output: 0.4871 
+Average squared error on training set (100 instances): 0.2670 
+Average squared error on test set (400 instances): 0.2706 
+
+In iteration 79: 
+Forward pass output: 0.5423 
+Average squared error on training set (100 instances): 0.2446 
+Average squared error on test set (400 instances): 0.2433 
+
+In iteration 80: 
+Forward pass output: 0.4844 
+Average squared error on training set (100 instances): 0.2303 
+Average squared error on test set (400 instances): 0.2246 
+
+In iteration 81: 
+Forward pass output: 0.4326 
+Average squared error on training set (100 instances): 0.2223 
+Average squared error on test set (400 instances): 0.2128 
+
+In iteration 82: 
+Forward pass output: 0.3883 
+Average squared error on training set (100 instances): 0.2186 
+Average squared error on test set (400 instances): 0.2059 
+
+In iteration 83: 
+Forward pass output: 0.3510 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2023 
+
+In iteration 84: 
+Forward pass output: 0.3200 
+Average squared error on training set (100 instances): 0.2183 
+Average squared error on test set (400 instances): 0.2008 
+
+In iteration 85: 
+Forward pass output: 0.2940 
+Average squared error on training set (100 instances): 0.2185 
+Average squared error on test set (400 instances): 0.2058 
+
+In iteration 86: 
+Forward pass output: 0.3501 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2022 
+
+In iteration 87: 
+Forward pass output: 0.3192 
+Average squared error on training set (100 instances): 0.2183 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 88: 
+Forward pass output: 0.2934 
+Average squared error on training set (100 instances): 0.2185 
+Average squared error on test set (400 instances): 0.2057 
+
+In iteration 89: 
+Forward pass output: 0.3493 
+Average squared error on training set (100 instances): 0.2256 
+Average squared error on test set (400 instances): 0.2179 
+
+In iteration 90: 
+Forward pass output: 0.4095 
+Average squared error on training set (100 instances): 0.2200 
+Average squared error on test set (400 instances): 0.2089 
+
+In iteration 91: 
+Forward pass output: 0.3690 
+Average squared error on training set (100 instances): 0.2296 
+Average squared error on test set (400 instances): 0.2237 
+
+In iteration 92: 
+Forward pass output: 0.4297 
+Average squared error on training set (100 instances): 0.2220 
+Average squared error on test set (400 instances): 0.2123 
+
+In iteration 93: 
+Forward pass output: 0.3861 
+Average squared error on training set (100 instances): 0.2185 
+Average squared error on test set (400 instances): 0.2057 
+
+In iteration 94: 
+Forward pass output: 0.3494 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2022 
+
+In iteration 95: 
+Forward pass output: 0.3188 
+Average squared error on training set (100 instances): 0.2183 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 96: 
+Forward pass output: 0.2932 
+Average squared error on training set (100 instances): 0.2199 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 97: 
+Forward pass output: 0.2716 
+Average squared error on training set (100 instances): 0.2221 
+Average squared error on test set (400 instances): 0.2011 
+
+In iteration 98: 
+Forward pass output: 0.2533 
+Average squared error on training set (100 instances): 0.2244 
+Average squared error on test set (400 instances): 0.2021 
+
+In iteration 99: 
+Forward pass output: 0.2376 
+Average squared error on training set (100 instances): 0.2268 
+Average squared error on test set (400 instances): 0.2034 
+
+In iteration 100: 
+Forward pass output: 0.2239 
+Average squared error on training set (100 instances): 0.2293 
+Average squared error on test set (400 instances): 0.2048 
+
+In iteration 101: 
+Forward pass output: 0.2120 
+Average squared error on training set (100 instances): 0.2316 
+Average squared error on test set (400 instances): 0.2063 
+
+In iteration 102: 
+Forward pass output: 0.2016 
+Average squared error on training set (100 instances): 0.2339 
+Average squared error on test set (400 instances): 0.2078 
+
+In iteration 103: 
+Forward pass output: 0.1923 
+Average squared error on training set (100 instances): 0.2361 
+Average squared error on test set (400 instances): 0.2092 
+
+In iteration 104: 
+Forward pass output: 0.1840 
+Average squared error on training set (100 instances): 0.2382 
+Average squared error on test set (400 instances): 0.2107 
+
+In iteration 105: 
+Forward pass output: 0.1765 
+Average squared error on training set (100 instances): 0.2402 
+Average squared error on test set (400 instances): 0.2121 
+
+In iteration 106: 
+Forward pass output: 0.1697 
+Average squared error on training set (100 instances): 0.2421 
+Average squared error on test set (400 instances): 0.2135 
+
+In iteration 107: 
+Forward pass output: 0.1636 
+Average squared error on training set (100 instances): 0.2438 
+Average squared error on test set (400 instances): 0.2148 
+
+In iteration 108: 
+Forward pass output: 0.1580 
+Average squared error on training set (100 instances): 0.2455 
+Average squared error on test set (400 instances): 0.2160 
+
+In iteration 109: 
+Forward pass output: 0.1529 
+Average squared error on training set (100 instances): 0.2471 
+Average squared error on test set (400 instances): 0.2172 
+
+In iteration 110: 
+Forward pass output: 0.1482 
+Average squared error on training set (100 instances): 0.2487 
+Average squared error on test set (400 instances): 0.2184 
+
+In iteration 111: 
+Forward pass output: 0.1438 
+Average squared error on training set (100 instances): 0.2501 
+Average squared error on test set (400 instances): 0.2195 
+
+In iteration 112: 
+Forward pass output: 0.1397 
+Average squared error on training set (100 instances): 0.2515 
+Average squared error on test set (400 instances): 0.2205 
+
+In iteration 113: 
+Forward pass output: 0.1360 
+Average squared error on training set (100 instances): 0.2528 
+Average squared error on test set (400 instances): 0.2215 
+
+In iteration 114: 
+Forward pass output: 0.1325 
+Average squared error on training set (100 instances): 0.2540 
+Average squared error on test set (400 instances): 0.2225 
+
+In iteration 115: 
+Forward pass output: 0.1292 
+Average squared error on training set (100 instances): 0.2460 
+Average squared error on test set (400 instances): 0.2164 
+
+In iteration 116: 
+Forward pass output: 0.1515 
+Average squared error on training set (100 instances): 0.2476 
+Average squared error on test set (400 instances): 0.2176 
+
+In iteration 117: 
+Forward pass output: 0.1469 
+Average squared error on training set (100 instances): 0.2491 
+Average squared error on test set (400 instances): 0.2187 
+
+In iteration 118: 
+Forward pass output: 0.1426 
+Average squared error on training set (100 instances): 0.2505 
+Average squared error on test set (400 instances): 0.2198 
+
+In iteration 119: 
+Forward pass output: 0.1387 
+Average squared error on training set (100 instances): 0.2421 
+Average squared error on test set (400 instances): 0.2135 
+
+In iteration 120: 
+Forward pass output: 0.1633 
+Average squared error on training set (100 instances): 0.2439 
+Average squared error on test set (400 instances): 0.2148 
+
+In iteration 121: 
+Forward pass output: 0.1578 
+Average squared error on training set (100 instances): 0.2456 
+Average squared error on test set (400 instances): 0.2161 
+
+In iteration 122: 
+Forward pass output: 0.1527 
+Average squared error on training set (100 instances): 0.2370 
+Average squared error on test set (400 instances): 0.2098 
+
+In iteration 123: 
+Forward pass output: 0.1809 
+Average squared error on training set (100 instances): 0.2284 
+Average squared error on test set (400 instances): 0.2043 
+
+In iteration 124: 
+Forward pass output: 0.2159 
+Average squared error on training set (100 instances): 0.2214 
+Average squared error on test set (400 instances): 0.2008 
+
+In iteration 125: 
+Forward pass output: 0.2587 
+Average squared error on training set (100 instances): 0.2236 
+Average squared error on test set (400 instances): 0.2017 
+
+In iteration 126: 
+Forward pass output: 0.2423 
+Average squared error on training set (100 instances): 0.2261 
+Average squared error on test set (400 instances): 0.2029 
+
+In iteration 127: 
+Forward pass output: 0.2281 
+Average squared error on training set (100 instances): 0.2285 
+Average squared error on test set (400 instances): 0.2043 
+
+In iteration 128: 
+Forward pass output: 0.2157 
+Average squared error on training set (100 instances): 0.2309 
+Average squared error on test set (400 instances): 0.2058 
+
+In iteration 129: 
+Forward pass output: 0.2048 
+Average squared error on training set (100 instances): 0.2332 
+Average squared error on test set (400 instances): 0.2073 
+
+In iteration 130: 
+Forward pass output: 0.1952 
+Average squared error on training set (100 instances): 0.2251 
+Average squared error on test set (400 instances): 0.2024 
+
+In iteration 131: 
+Forward pass output: 0.2335 
+Average squared error on training set (100 instances): 0.2192 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 132: 
+Forward pass output: 0.2796 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2036 
+
+In iteration 133: 
+Forward pass output: 0.3332 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2013 
+
+In iteration 134: 
+Forward pass output: 0.3055 
+Average squared error on training set (100 instances): 0.2194 
+Average squared error on test set (400 instances): 0.2076 
+
+In iteration 135: 
+Forward pass output: 0.3619 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2032 
+
+In iteration 136: 
+Forward pass output: 0.3296 
+Average squared error on training set (100 instances): 0.2179 
+Average squared error on test set (400 instances): 0.2011 
+
+In iteration 137: 
+Forward pass output: 0.3025 
+Average squared error on training set (100 instances): 0.2191 
+Average squared error on test set (400 instances): 0.2071 
+
+In iteration 138: 
+Forward pass output: 0.3585 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2029 
+
+In iteration 139: 
+Forward pass output: 0.3268 
+Average squared error on training set (100 instances): 0.2218 
+Average squared error on test set (400 instances): 0.2120 
+
+In iteration 140: 
+Forward pass output: 0.3848 
+Average squared error on training set (100 instances): 0.2332 
+Average squared error on test set (400 instances): 0.2285 
+
+In iteration 141: 
+Forward pass output: 0.4448 
+Average squared error on training set (100 instances): 0.2509 
+Average squared error on test set (400 instances): 0.2511 
+
+In iteration 142: 
+Forward pass output: 0.5024 
+Average squared error on training set (100 instances): 0.2726 
+Average squared error on test set (400 instances): 0.2773 
+
+In iteration 143: 
+Forward pass output: 0.5546 
+Average squared error on training set (100 instances): 0.2959 
+Average squared error on test set (400 instances): 0.3044 
+
+In iteration 144: 
+Forward pass output: 0.5999 
+Average squared error on training set (100 instances): 0.2661 
+Average squared error on test set (400 instances): 0.2696 
+
+In iteration 145: 
+Forward pass output: 0.5403 
+Average squared error on training set (100 instances): 0.2445 
+Average squared error on test set (400 instances): 0.2431 
+
+In iteration 146: 
+Forward pass output: 0.4840 
+Average squared error on training set (100 instances): 0.2305 
+Average squared error on test set (400 instances): 0.2249 
+
+In iteration 147: 
+Forward pass output: 0.4336 
+Average squared error on training set (100 instances): 0.2225 
+Average squared error on test set (400 instances): 0.2132 
+
+In iteration 148: 
+Forward pass output: 0.3902 
+Average squared error on training set (100 instances): 0.2344 
+Average squared error on test set (400 instances): 0.2301 
+
+In iteration 149: 
+Forward pass output: 0.4497 
+Average squared error on training set (100 instances): 0.2247 
+Average squared error on test set (400 instances): 0.2165 
+
+In iteration 150: 
+Forward pass output: 0.4040 
+Average squared error on training set (100 instances): 0.2381 
+Average squared error on test set (400 instances): 0.2350 
+
+In iteration 151: 
+Forward pass output: 0.4632 
+Average squared error on training set (100 instances): 0.2572 
+Average squared error on test set (400 instances): 0.2588 
+
+In iteration 152: 
+Forward pass output: 0.5190 
+Average squared error on training set (100 instances): 0.2386 
+Average squared error on test set (400 instances): 0.2356 
+
+In iteration 153: 
+Forward pass output: 0.4649 
+Average squared error on training set (100 instances): 0.2271 
+Average squared error on test set (400 instances): 0.2200 
+
+In iteration 154: 
+Forward pass output: 0.4172 
+Average squared error on training set (100 instances): 0.2419 
+Average squared error on test set (400 instances): 0.2398 
+
+In iteration 155: 
+Forward pass output: 0.4758 
+Average squared error on training set (100 instances): 0.2290 
+Average squared error on test set (400 instances): 0.2228 
+
+In iteration 156: 
+Forward pass output: 0.4268 
+Average squared error on training set (100 instances): 0.2218 
+Average squared error on test set (400 instances): 0.2120 
+
+In iteration 157: 
+Forward pass output: 0.3847 
+Average squared error on training set (100 instances): 0.2184 
+Average squared error on test set (400 instances): 0.2056 
+
+In iteration 158: 
+Forward pass output: 0.3491 
+Average squared error on training set (100 instances): 0.2253 
+Average squared error on test set (400 instances): 0.2174 
+
+In iteration 159: 
+Forward pass output: 0.4076 
+Average squared error on training set (100 instances): 0.2200 
+Average squared error on test set (400 instances): 0.2088 
+
+In iteration 160: 
+Forward pass output: 0.3685 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2039 
+
+In iteration 161: 
+Forward pass output: 0.3356 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2014 
+
+In iteration 162: 
+Forward pass output: 0.3080 
+Average squared error on training set (100 instances): 0.2188 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 163: 
+Forward pass output: 0.2847 
+Average squared error on training set (100 instances): 0.2206 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 164: 
+Forward pass output: 0.2650 
+Average squared error on training set (100 instances): 0.2228 
+Average squared error on test set (400 instances): 0.2014 
+
+In iteration 165: 
+Forward pass output: 0.2480 
+Average squared error on training set (100 instances): 0.2251 
+Average squared error on test set (400 instances): 0.2024 
+
+In iteration 166: 
+Forward pass output: 0.2334 
+Average squared error on training set (100 instances): 0.2275 
+Average squared error on test set (400 instances): 0.2037 
+
+In iteration 167: 
+Forward pass output: 0.2206 
+Average squared error on training set (100 instances): 0.2298 
+Average squared error on test set (400 instances): 0.2051 
+
+In iteration 168: 
+Forward pass output: 0.2094 
+Average squared error on training set (100 instances): 0.2225 
+Average squared error on test set (400 instances): 0.2013 
+
+In iteration 169: 
+Forward pass output: 0.2499 
+Average squared error on training set (100 instances): 0.2181 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 170: 
+Forward pass output: 0.2978 
+Average squared error on training set (100 instances): 0.2186 
+Average squared error on test set (400 instances): 0.2061 
+
+In iteration 171: 
+Forward pass output: 0.3523 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2025 
+
+In iteration 172: 
+Forward pass output: 0.3221 
+Average squared error on training set (100 instances): 0.2210 
+Average squared error on test set (400 instances): 0.2107 
+
+In iteration 173: 
+Forward pass output: 0.3787 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2050 
+
+In iteration 174: 
+Forward pass output: 0.3443 
+Average squared error on training set (100 instances): 0.2244 
+Average squared error on test set (400 instances): 0.2160 
+
+In iteration 175: 
+Forward pass output: 0.4022 
+Average squared error on training set (100 instances): 0.2196 
+Average squared error on test set (400 instances): 0.2080 
+
+In iteration 176: 
+Forward pass output: 0.3642 
+Average squared error on training set (100 instances): 0.2281 
+Average squared error on test set (400 instances): 0.2215 
+
+In iteration 177: 
+Forward pass output: 0.4226 
+Average squared error on training set (100 instances): 0.2433 
+Average squared error on test set (400 instances): 0.2416 
+
+In iteration 178: 
+Forward pass output: 0.4802 
+Average squared error on training set (100 instances): 0.2632 
+Average squared error on test set (400 instances): 0.2661 
+
+In iteration 179: 
+Forward pass output: 0.5336 
+Average squared error on training set (100 instances): 0.2429 
+Average squared error on test set (400 instances): 0.2411 
+
+In iteration 180: 
+Forward pass output: 0.4790 
+Average squared error on training set (100 instances): 0.2297 
+Average squared error on test set (400 instances): 0.2238 
+
+In iteration 181: 
+Forward pass output: 0.4302 
+Average squared error on training set (100 instances): 0.2222 
+Average squared error on test set (400 instances): 0.2127 
+
+In iteration 182: 
+Forward pass output: 0.3882 
+Average squared error on training set (100 instances): 0.2187 
+Average squared error on test set (400 instances): 0.2061 
+
+In iteration 183: 
+Forward pass output: 0.3526 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2025 
+
+In iteration 184: 
+Forward pass output: 0.3226 
+Average squared error on training set (100 instances): 0.2181 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 185: 
+Forward pass output: 0.2973 
+Average squared error on training set (100 instances): 0.2186 
+Average squared error on test set (400 instances): 0.2059 
+
+In iteration 186: 
+Forward pass output: 0.3512 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2024 
+
+In iteration 187: 
+Forward pass output: 0.3215 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 188: 
+Forward pass output: 0.2965 
+Average squared error on training set (100 instances): 0.2185 
+Average squared error on test set (400 instances): 0.2058 
+
+In iteration 189: 
+Forward pass output: 0.3501 
+Average squared error on training set (100 instances): 0.2253 
+Average squared error on test set (400 instances): 0.2174 
+
+In iteration 190: 
+Forward pass output: 0.4076 
+Average squared error on training set (100 instances): 0.2200 
+Average squared error on test set (400 instances): 0.2089 
+
+In iteration 191: 
+Forward pass output: 0.3692 
+Average squared error on training set (100 instances): 0.2291 
+Average squared error on test set (400 instances): 0.2229 
+
+In iteration 192: 
+Forward pass output: 0.4271 
+Average squared error on training set (100 instances): 0.2219 
+Average squared error on test set (400 instances): 0.2122 
+
+In iteration 193: 
+Forward pass output: 0.3858 
+Average squared error on training set (100 instances): 0.2185 
+Average squared error on test set (400 instances): 0.2059 
+
+In iteration 194: 
+Forward pass output: 0.3508 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2024 
+
+In iteration 195: 
+Forward pass output: 0.3213 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2008 
+
+In iteration 196: 
+Forward pass output: 0.2964 
+Average squared error on training set (100 instances): 0.2196 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 197: 
+Forward pass output: 0.2752 
+Average squared error on training set (100 instances): 0.2215 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 198: 
+Forward pass output: 0.2572 
+Average squared error on training set (100 instances): 0.2237 
+Average squared error on test set (400 instances): 0.2018 
+
+In iteration 199: 
+Forward pass output: 0.2416 
+Average squared error on training set (100 instances): 0.2261 
+Average squared error on test set (400 instances): 0.2029 
+
+In iteration 200: 
+Forward pass output: 0.2280 
+Average squared error on training set (100 instances): 0.2284 
+Average squared error on test set (400 instances): 0.2043 
+
+In iteration 201: 
+Forward pass output: 0.2161 
+Average squared error on training set (100 instances): 0.2307 
+Average squared error on test set (400 instances): 0.2057 
+
+In iteration 202: 
+Forward pass output: 0.2056 
+Average squared error on training set (100 instances): 0.2329 
+Average squared error on test set (400 instances): 0.2071 
+
+In iteration 203: 
+Forward pass output: 0.1963 
+Average squared error on training set (100 instances): 0.2350 
+Average squared error on test set (400 instances): 0.2085 
+
+In iteration 204: 
+Forward pass output: 0.1879 
+Average squared error on training set (100 instances): 0.2371 
+Average squared error on test set (400 instances): 0.2099 
+
+In iteration 205: 
+Forward pass output: 0.1804 
+Average squared error on training set (100 instances): 0.2390 
+Average squared error on test set (400 instances): 0.2113 
+
+In iteration 206: 
+Forward pass output: 0.1736 
+Average squared error on training set (100 instances): 0.2409 
+Average squared error on test set (400 instances): 0.2126 
+
+In iteration 207: 
+Forward pass output: 0.1674 
+Average squared error on training set (100 instances): 0.2427 
+Average squared error on test set (400 instances): 0.2139 
+
+In iteration 208: 
+Forward pass output: 0.1617 
+Average squared error on training set (100 instances): 0.2443 
+Average squared error on test set (400 instances): 0.2151 
+
+In iteration 209: 
+Forward pass output: 0.1565 
+Average squared error on training set (100 instances): 0.2459 
+Average squared error on test set (400 instances): 0.2163 
+
+In iteration 210: 
+Forward pass output: 0.1517 
+Average squared error on training set (100 instances): 0.2474 
+Average squared error on test set (400 instances): 0.2175 
+
+In iteration 211: 
+Forward pass output: 0.1472 
+Average squared error on training set (100 instances): 0.2489 
+Average squared error on test set (400 instances): 0.2186 
+
+In iteration 212: 
+Forward pass output: 0.1431 
+Average squared error on training set (100 instances): 0.2503 
+Average squared error on test set (400 instances): 0.2196 
+
+In iteration 213: 
+Forward pass output: 0.1393 
+Average squared error on training set (100 instances): 0.2516 
+Average squared error on test set (400 instances): 0.2206 
+
+In iteration 214: 
+Forward pass output: 0.1357 
+Average squared error on training set (100 instances): 0.2528 
+Average squared error on test set (400 instances): 0.2216 
+
+In iteration 215: 
+Forward pass output: 0.1323 
+Average squared error on training set (100 instances): 0.2450 
+Average squared error on test set (400 instances): 0.2156 
+
+In iteration 216: 
+Forward pass output: 0.1545 
+Average squared error on training set (100 instances): 0.2466 
+Average squared error on test set (400 instances): 0.2168 
+
+In iteration 217: 
+Forward pass output: 0.1498 
+Average squared error on training set (100 instances): 0.2480 
+Average squared error on test set (400 instances): 0.2179 
+
+In iteration 218: 
+Forward pass output: 0.1455 
+Average squared error on training set (100 instances): 0.2495 
+Average squared error on test set (400 instances): 0.2190 
+
+In iteration 219: 
+Forward pass output: 0.1415 
+Average squared error on training set (100 instances): 0.2414 
+Average squared error on test set (400 instances): 0.2130 
+
+In iteration 220: 
+Forward pass output: 0.1658 
+Average squared error on training set (100 instances): 0.2431 
+Average squared error on test set (400 instances): 0.2142 
+
+In iteration 221: 
+Forward pass output: 0.1603 
+Average squared error on training set (100 instances): 0.2448 
+Average squared error on test set (400 instances): 0.2155 
+
+In iteration 222: 
+Forward pass output: 0.1552 
+Average squared error on training set (100 instances): 0.2365 
+Average squared error on test set (400 instances): 0.2095 
+
+In iteration 223: 
+Forward pass output: 0.1827 
+Average squared error on training set (100 instances): 0.2283 
+Average squared error on test set (400 instances): 0.2042 
+
+In iteration 224: 
+Forward pass output: 0.2166 
+Average squared error on training set (100 instances): 0.2215 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 225: 
+Forward pass output: 0.2576 
+Average squared error on training set (100 instances): 0.2237 
+Average squared error on test set (400 instances): 0.2018 
+
+In iteration 226: 
+Forward pass output: 0.2420 
+Average squared error on training set (100 instances): 0.2260 
+Average squared error on test set (400 instances): 0.2029 
+
+In iteration 227: 
+Forward pass output: 0.2284 
+Average squared error on training set (100 instances): 0.2283 
+Average squared error on test set (400 instances): 0.2042 
+
+In iteration 228: 
+Forward pass output: 0.2165 
+Average squared error on training set (100 instances): 0.2306 
+Average squared error on test set (400 instances): 0.2056 
+
+In iteration 229: 
+Forward pass output: 0.2060 
+Average squared error on training set (100 instances): 0.2328 
+Average squared error on test set (400 instances): 0.2070 
+
+In iteration 230: 
+Forward pass output: 0.1967 
+Average squared error on training set (100 instances): 0.2251 
+Average squared error on test set (400 instances): 0.2024 
+
+In iteration 231: 
+Forward pass output: 0.2335 
+Average squared error on training set (100 instances): 0.2194 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 232: 
+Forward pass output: 0.2777 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2031 
+
+In iteration 233: 
+Forward pass output: 0.3285 
+Average squared error on training set (100 instances): 0.2179 
+Average squared error on test set (400 instances): 0.2011 
+
+In iteration 234: 
+Forward pass output: 0.3027 
+Average squared error on training set (100 instances): 0.2189 
+Average squared error on test set (400 instances): 0.2067 
+
+In iteration 235: 
+Forward pass output: 0.3564 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2029 
+
+In iteration 236: 
+Forward pass output: 0.3262 
+Average squared error on training set (100 instances): 0.2180 
+Average squared error on test set (400 instances): 0.2010 
+
+In iteration 237: 
+Forward pass output: 0.3008 
+Average squared error on training set (100 instances): 0.2188 
+Average squared error on test set (400 instances): 0.2064 
+
+In iteration 238: 
+Forward pass output: 0.3542 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2027 
+
+In iteration 239: 
+Forward pass output: 0.3244 
+Average squared error on training set (100 instances): 0.2212 
+Average squared error on test set (400 instances): 0.2110 
+
+In iteration 240: 
+Forward pass output: 0.3798 
+Average squared error on training set (100 instances): 0.2313 
+Average squared error on test set (400 instances): 0.2259 
+
+In iteration 241: 
+Forward pass output: 0.4370 
+Average squared error on training set (100 instances): 0.2474 
+Average squared error on test set (400 instances): 0.2468 
+
+In iteration 242: 
+Forward pass output: 0.4926 
+Average squared error on training set (100 instances): 0.2676 
+Average squared error on test set (400 instances): 0.2713 
+
+In iteration 243: 
+Forward pass output: 0.5436 
+Average squared error on training set (100 instances): 0.2897 
+Average squared error on test set (400 instances): 0.2972 
+
+In iteration 244: 
+Forward pass output: 0.5885 
+Average squared error on training set (100 instances): 0.2625 
+Average squared error on test set (400 instances): 0.2652 
+
+In iteration 245: 
+Forward pass output: 0.5318 
+Average squared error on training set (100 instances): 0.2428 
+Average squared error on test set (400 instances): 0.2409 
+
+In iteration 246: 
+Forward pass output: 0.4786 
+Average squared error on training set (100 instances): 0.2299 
+Average squared error on test set (400 instances): 0.2241 
+
+In iteration 247: 
+Forward pass output: 0.4310 
+Average squared error on training set (100 instances): 0.2225 
+Average squared error on test set (400 instances): 0.2131 
+
+In iteration 248: 
+Forward pass output: 0.3899 
+Average squared error on training set (100 instances): 0.2337 
+Average squared error on test set (400 instances): 0.2291 
+
+In iteration 249: 
+Forward pass output: 0.4467 
+Average squared error on training set (100 instances): 0.2246 
+Average squared error on test set (400 instances): 0.2163 
+
+In iteration 250: 
+Forward pass output: 0.4034 
+Average squared error on training set (100 instances): 0.2372 
+Average squared error on test set (400 instances): 0.2338 
+
+In iteration 251: 
+Forward pass output: 0.4600 
+Average squared error on training set (100 instances): 0.2551 
+Average squared error on test set (400 instances): 0.2563 
+
+In iteration 252: 
+Forward pass output: 0.5136 
+Average squared error on training set (100 instances): 0.2379 
+Average squared error on test set (400 instances): 0.2347 
+
+In iteration 253: 
+Forward pass output: 0.4624 
+Average squared error on training set (100 instances): 0.2270 
+Average squared error on test set (400 instances): 0.2200 
+
+In iteration 254: 
+Forward pass output: 0.4171 
+Average squared error on training set (100 instances): 0.2410 
+Average squared error on test set (400 instances): 0.2388 
+
+In iteration 255: 
+Forward pass output: 0.4731 
+Average squared error on training set (100 instances): 0.2289 
+Average squared error on test set (400 instances): 0.2227 
+
+In iteration 256: 
+Forward pass output: 0.4265 
+Average squared error on training set (100 instances): 0.2220 
+Average squared error on test set (400 instances): 0.2123 
+
+In iteration 257: 
+Forward pass output: 0.3862 
+Average squared error on training set (100 instances): 0.2186 
+Average squared error on test set (400 instances): 0.2060 
+
+In iteration 258: 
+Forward pass output: 0.3519 
+Average squared error on training set (100 instances): 0.2253 
+Average squared error on test set (400 instances): 0.2175 
+
+In iteration 259: 
+Forward pass output: 0.4080 
+Average squared error on training set (100 instances): 0.2201 
+Average squared error on test set (400 instances): 0.2091 
+
+In iteration 260: 
+Forward pass output: 0.3704 
+Average squared error on training set (100 instances): 0.2179 
+Average squared error on test set (400 instances): 0.2042 
+
+In iteration 261: 
+Forward pass output: 0.3386 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2017 
+
+In iteration 262: 
+Forward pass output: 0.3117 
+Average squared error on training set (100 instances): 0.2186 
+Average squared error on test set (400 instances): 0.2006 
+
+In iteration 263: 
+Forward pass output: 0.2889 
+Average squared error on training set (100 instances): 0.2202 
+Average squared error on test set (400 instances): 0.2006 
+
+In iteration 264: 
+Forward pass output: 0.2693 
+Average squared error on training set (100 instances): 0.2222 
+Average squared error on test set (400 instances): 0.2011 
+
+In iteration 265: 
+Forward pass output: 0.2525 
+Average squared error on training set (100 instances): 0.2243 
+Average squared error on test set (400 instances): 0.2021 
+
+In iteration 266: 
+Forward pass output: 0.2379 
+Average squared error on training set (100 instances): 0.2266 
+Average squared error on test set (400 instances): 0.2032 
+
+In iteration 267: 
+Forward pass output: 0.2251 
+Average squared error on training set (100 instances): 0.2289 
+Average squared error on test set (400 instances): 0.2045 
+
+In iteration 268: 
+Forward pass output: 0.2138 
+Average squared error on training set (100 instances): 0.2220 
+Average squared error on test set (400 instances): 0.2011 
+
+In iteration 269: 
+Forward pass output: 0.2534 
+Average squared error on training set (100 instances): 0.2180 
+Average squared error on test set (400 instances): 0.2010 
+
+In iteration 270: 
+Forward pass output: 0.2998 
+Average squared error on training set (100 instances): 0.2186 
+Average squared error on test set (400 instances): 0.2060 
+
+In iteration 271: 
+Forward pass output: 0.3520 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2026 
+
+In iteration 272: 
+Forward pass output: 0.3232 
+Average squared error on training set (100 instances): 0.2209 
+Average squared error on test set (400 instances): 0.2105 
+
+In iteration 273: 
+Forward pass output: 0.3773 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2050 
+
+In iteration 274: 
+Forward pass output: 0.3446 
+Average squared error on training set (100 instances): 0.2240 
+Average squared error on test set (400 instances): 0.2155 
+
+In iteration 275: 
+Forward pass output: 0.4000 
+Average squared error on training set (100 instances): 0.2195 
+Average squared error on test set (400 instances): 0.2080 
+
+In iteration 276: 
+Forward pass output: 0.3639 
+Average squared error on training set (100 instances): 0.2276 
+Average squared error on test set (400 instances): 0.2207 
+
+In iteration 277: 
+Forward pass output: 0.4198 
+Average squared error on training set (100 instances): 0.2416 
+Average squared error on test set (400 instances): 0.2395 
+
+In iteration 278: 
+Forward pass output: 0.4751 
+Average squared error on training set (100 instances): 0.2603 
+Average squared error on test set (400 instances): 0.2626 
+
+In iteration 279: 
+Forward pass output: 0.5267 
+Average squared error on training set (100 instances): 0.2416 
+Average squared error on test set (400 instances): 0.2395 
+
+In iteration 280: 
+Forward pass output: 0.4749 
+Average squared error on training set (100 instances): 0.2294 
+Average squared error on test set (400 instances): 0.2234 
+
+In iteration 281: 
+Forward pass output: 0.4287 
+Average squared error on training set (100 instances): 0.2223 
+Average squared error on test set (400 instances): 0.2128 
+
+In iteration 282: 
+Forward pass output: 0.3886 
+Average squared error on training set (100 instances): 0.2188 
+Average squared error on test set (400 instances): 0.2064 
+
+In iteration 283: 
+Forward pass output: 0.3544 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2028 
+
+In iteration 284: 
+Forward pass output: 0.3254 
+Average squared error on training set (100 instances): 0.2180 
+Average squared error on test set (400 instances): 0.2010 
+
+In iteration 285: 
+Forward pass output: 0.3007 
+Average squared error on training set (100 instances): 0.2187 
+Average squared error on test set (400 instances): 0.2061 
+
+In iteration 286: 
+Forward pass output: 0.3526 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2026 
+
+In iteration 287: 
+Forward pass output: 0.3239 
+Average squared error on training set (100 instances): 0.2180 
+Average squared error on test set (400 instances): 0.2010 
+
+In iteration 288: 
+Forward pass output: 0.2995 
+Average squared error on training set (100 instances): 0.2186 
+Average squared error on test set (400 instances): 0.2059 
+
+In iteration 289: 
+Forward pass output: 0.3512 
+Average squared error on training set (100 instances): 0.2250 
+Average squared error on test set (400 instances): 0.2171 
+
+In iteration 290: 
+Forward pass output: 0.4063 
+Average squared error on training set (100 instances): 0.2201 
+Average squared error on test set (400 instances): 0.2090 
+
+In iteration 291: 
+Forward pass output: 0.3696 
+Average squared error on training set (100 instances): 0.2286 
+Average squared error on test set (400 instances): 0.2223 
+
+In iteration 292: 
+Forward pass output: 0.4251 
+Average squared error on training set (100 instances): 0.2219 
+Average squared error on test set (400 instances): 0.2122 
+
+In iteration 293: 
+Forward pass output: 0.3857 
+Average squared error on training set (100 instances): 0.2186 
+Average squared error on test set (400 instances): 0.2061 
+
+In iteration 294: 
+Forward pass output: 0.3522 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2026 
+
+In iteration 295: 
+Forward pass output: 0.3236 
+Average squared error on training set (100 instances): 0.2180 
+Average squared error on test set (400 instances): 0.2010 
+
+In iteration 296: 
+Forward pass output: 0.2994 
+Average squared error on training set (100 instances): 0.2193 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 297: 
+Forward pass output: 0.2787 
+Average squared error on training set (100 instances): 0.2211 
+Average squared error on test set (400 instances): 0.2008 
+
+In iteration 298: 
+Forward pass output: 0.2609 
+Average squared error on training set (100 instances): 0.2232 
+Average squared error on test set (400 instances): 0.2015 
+
+In iteration 299: 
+Forward pass output: 0.2455 
+Average squared error on training set (100 instances): 0.2253 
+Average squared error on test set (400 instances): 0.2026 
+
+In iteration 300: 
+Forward pass output: 0.2320 
+Average squared error on training set (100 instances): 0.2276 
+Average squared error on test set (400 instances): 0.2038 
+
+In iteration 301: 
+Forward pass output: 0.2201 
+Average squared error on training set (100 instances): 0.2298 
+Average squared error on test set (400 instances): 0.2051 
+
+In iteration 302: 
+Forward pass output: 0.2096 
+Average squared error on training set (100 instances): 0.2319 
+Average squared error on test set (400 instances): 0.2065 
+
+In iteration 303: 
+Forward pass output: 0.2002 
+Average squared error on training set (100 instances): 0.2340 
+Average squared error on test set (400 instances): 0.2078 
+
+In iteration 304: 
+Forward pass output: 0.1918 
+Average squared error on training set (100 instances): 0.2360 
+Average squared error on test set (400 instances): 0.2092 
+
+In iteration 305: 
+Forward pass output: 0.1842 
+Average squared error on training set (100 instances): 0.2380 
+Average squared error on test set (400 instances): 0.2105 
+
+In iteration 306: 
+Forward pass output: 0.1773 
+Average squared error on training set (100 instances): 0.2398 
+Average squared error on test set (400 instances): 0.2118 
+
+In iteration 307: 
+Forward pass output: 0.1710 
+Average squared error on training set (100 instances): 0.2415 
+Average squared error on test set (400 instances): 0.2131 
+
+In iteration 308: 
+Forward pass output: 0.1653 
+Average squared error on training set (100 instances): 0.2432 
+Average squared error on test set (400 instances): 0.2143 
+
+In iteration 309: 
+Forward pass output: 0.1600 
+Average squared error on training set (100 instances): 0.2448 
+Average squared error on test set (400 instances): 0.2155 
+
+In iteration 310: 
+Forward pass output: 0.1551 
+Average squared error on training set (100 instances): 0.2463 
+Average squared error on test set (400 instances): 0.2166 
+
+In iteration 311: 
+Forward pass output: 0.1506 
+Average squared error on training set (100 instances): 0.2477 
+Average squared error on test set (400 instances): 0.2177 
+
+In iteration 312: 
+Forward pass output: 0.1464 
+Average squared error on training set (100 instances): 0.2491 
+Average squared error on test set (400 instances): 0.2187 
+
+In iteration 313: 
+Forward pass output: 0.1425 
+Average squared error on training set (100 instances): 0.2504 
+Average squared error on test set (400 instances): 0.2197 
+
+In iteration 314: 
+Forward pass output: 0.1388 
+Average squared error on training set (100 instances): 0.2517 
+Average squared error on test set (400 instances): 0.2207 
+
+In iteration 315: 
+Forward pass output: 0.1354 
+Average squared error on training set (100 instances): 0.2441 
+Average squared error on test set (400 instances): 0.2149 
+
+In iteration 316: 
+Forward pass output: 0.1573 
+Average squared error on training set (100 instances): 0.2456 
+Average squared error on test set (400 instances): 0.2161 
+
+In iteration 317: 
+Forward pass output: 0.1527 
+Average squared error on training set (100 instances): 0.2471 
+Average squared error on test set (400 instances): 0.2172 
+
+In iteration 318: 
+Forward pass output: 0.1483 
+Average squared error on training set (100 instances): 0.2485 
+Average squared error on test set (400 instances): 0.2182 
+
+In iteration 319: 
+Forward pass output: 0.1443 
+Average squared error on training set (100 instances): 0.2406 
+Average squared error on test set (400 instances): 0.2124 
+
+In iteration 320: 
+Forward pass output: 0.1682 
+Average squared error on training set (100 instances): 0.2423 
+Average squared error on test set (400 instances): 0.2137 
+
+In iteration 321: 
+Forward pass output: 0.1627 
+Average squared error on training set (100 instances): 0.2440 
+Average squared error on test set (400 instances): 0.2149 
+
+In iteration 322: 
+Forward pass output: 0.1576 
+Average squared error on training set (100 instances): 0.2359 
+Average squared error on test set (400 instances): 0.2091 
+
+In iteration 323: 
+Forward pass output: 0.1845 
+Average squared error on training set (100 instances): 0.2281 
+Average squared error on test set (400 instances): 0.2041 
+
+In iteration 324: 
+Forward pass output: 0.2174 
+Average squared error on training set (100 instances): 0.2216 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 325: 
+Forward pass output: 0.2567 
+Average squared error on training set (100 instances): 0.2237 
+Average squared error on test set (400 instances): 0.2018 
+
+In iteration 326: 
+Forward pass output: 0.2419 
+Average squared error on training set (100 instances): 0.2259 
+Average squared error on test set (400 instances): 0.2029 
+
+In iteration 327: 
+Forward pass output: 0.2289 
+Average squared error on training set (100 instances): 0.2281 
+Average squared error on test set (400 instances): 0.2041 
+
+In iteration 328: 
+Forward pass output: 0.2174 
+Average squared error on training set (100 instances): 0.2303 
+Average squared error on test set (400 instances): 0.2054 
+
+In iteration 329: 
+Forward pass output: 0.2072 
+Average squared error on training set (100 instances): 0.2324 
+Average squared error on test set (400 instances): 0.2068 
+
+In iteration 330: 
+Forward pass output: 0.1981 
+Average squared error on training set (100 instances): 0.2250 
+Average squared error on test set (400 instances): 0.2024 
+
+In iteration 331: 
+Forward pass output: 0.2337 
+Average squared error on training set (100 instances): 0.2195 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 332: 
+Forward pass output: 0.2760 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2027 
+
+In iteration 333: 
+Forward pass output: 0.3245 
+Average squared error on training set (100 instances): 0.2180 
+Average squared error on test set (400 instances): 0.2010 
+
+In iteration 334: 
+Forward pass output: 0.3003 
+Average squared error on training set (100 instances): 0.2186 
+Average squared error on test set (400 instances): 0.2060 
+
+In iteration 335: 
+Forward pass output: 0.3514 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2026 
+
+In iteration 336: 
+Forward pass output: 0.3233 
+Average squared error on training set (100 instances): 0.2180 
+Average squared error on test set (400 instances): 0.2010 
+
+In iteration 337: 
+Forward pass output: 0.2993 
+Average squared error on training set (100 instances): 0.2185 
+Average squared error on test set (400 instances): 0.2058 
+
+In iteration 338: 
+Forward pass output: 0.3502 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2025 
+
+In iteration 339: 
+Forward pass output: 0.3223 
+Average squared error on training set (100 instances): 0.2206 
+Average squared error on test set (400 instances): 0.2100 
+
+In iteration 340: 
+Forward pass output: 0.3751 
+Average squared error on training set (100 instances): 0.2297 
+Average squared error on test set (400 instances): 0.2237 
+
+In iteration 341: 
+Forward pass output: 0.4300 
+Average squared error on training set (100 instances): 0.2444 
+Average squared error on test set (400 instances): 0.2430 
+
+In iteration 342: 
+Forward pass output: 0.4836 
+Average squared error on training set (100 instances): 0.2631 
+Average squared error on test set (400 instances): 0.2660 
+
+In iteration 343: 
+Forward pass output: 0.5334 
+Average squared error on training set (100 instances): 0.2840 
+Average squared error on test set (400 instances): 0.2906 
+
+In iteration 344: 
+Forward pass output: 0.5777 
+Average squared error on training set (100 instances): 0.2591 
+Average squared error on test set (400 instances): 0.2612 
+
+In iteration 345: 
+Forward pass output: 0.5238 
+Average squared error on training set (100 instances): 0.2411 
+Average squared error on test set (400 instances): 0.2389 
+
+In iteration 346: 
+Forward pass output: 0.4734 
+Average squared error on training set (100 instances): 0.2293 
+Average squared error on test set (400 instances): 0.2233 
+
+In iteration 347: 
+Forward pass output: 0.4284 
+Average squared error on training set (100 instances): 0.2224 
+Average squared error on test set (400 instances): 0.2130 
+
+In iteration 348: 
+Forward pass output: 0.3893 
+Average squared error on training set (100 instances): 0.2329 
+Average squared error on test set (400 instances): 0.2281 
+
+In iteration 349: 
+Forward pass output: 0.4438 
+Average squared error on training set (100 instances): 0.2244 
+Average squared error on test set (400 instances): 0.2161 
+
+In iteration 350: 
+Forward pass output: 0.4026 
+Average squared error on training set (100 instances): 0.2363 
+Average squared error on test set (400 instances): 0.2327 
+
+In iteration 351: 
+Forward pass output: 0.4569 
+Average squared error on training set (100 instances): 0.2532 
+Average squared error on test set (400 instances): 0.2539 
+
+In iteration 352: 
+Forward pass output: 0.5085 
+Average squared error on training set (100 instances): 0.2372 
+Average squared error on test set (400 instances): 0.2337 
+
+In iteration 353: 
+Forward pass output: 0.4598 
+Average squared error on training set (100 instances): 0.2269 
+Average squared error on test set (400 instances): 0.2199 
+
+In iteration 354: 
+Forward pass output: 0.4167 
+Average squared error on training set (100 instances): 0.2402 
+Average squared error on test set (400 instances): 0.2377 
+
+In iteration 355: 
+Forward pass output: 0.4704 
+Average squared error on training set (100 instances): 0.2288 
+Average squared error on test set (400 instances): 0.2225 
+
+In iteration 356: 
+Forward pass output: 0.4260 
+Average squared error on training set (100 instances): 0.2221 
+Average squared error on test set (400 instances): 0.2126 
+
+In iteration 357: 
+Forward pass output: 0.3874 
+Average squared error on training set (100 instances): 0.2188 
+Average squared error on test set (400 instances): 0.2064 
+
+In iteration 358: 
+Forward pass output: 0.3543 
+Average squared error on training set (100 instances): 0.2254 
+Average squared error on test set (400 instances): 0.2175 
+
+In iteration 359: 
+Forward pass output: 0.4081 
+Average squared error on training set (100 instances): 0.2203 
+Average squared error on test set (400 instances): 0.2094 
+
+In iteration 360: 
+Forward pass output: 0.3720 
+Average squared error on training set (100 instances): 0.2180 
+Average squared error on test set (400 instances): 0.2046 
+
+In iteration 361: 
+Forward pass output: 0.3413 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2019 
+
+In iteration 362: 
+Forward pass output: 0.3150 
+Average squared error on training set (100 instances): 0.2183 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 363: 
+Forward pass output: 0.2926 
+Average squared error on training set (100 instances): 0.2198 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 364: 
+Forward pass output: 0.2733 
+Average squared error on training set (100 instances): 0.2216 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 365: 
+Forward pass output: 0.2566 
+Average squared error on training set (100 instances): 0.2237 
+Average squared error on test set (400 instances): 0.2017 
+
+In iteration 366: 
+Forward pass output: 0.2421 
+Average squared error on training set (100 instances): 0.2258 
+Average squared error on test set (400 instances): 0.2028 
+
+In iteration 367: 
+Forward pass output: 0.2293 
+Average squared error on training set (100 instances): 0.2280 
+Average squared error on test set (400 instances): 0.2040 
+
+In iteration 368: 
+Forward pass output: 0.2180 
+Average squared error on training set (100 instances): 0.2216 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 369: 
+Forward pass output: 0.2567 
+Average squared error on training set (100 instances): 0.2179 
+Average squared error on test set (400 instances): 0.2011 
+
+In iteration 370: 
+Forward pass output: 0.3016 
+Average squared error on training set (100 instances): 0.2186 
+Average squared error on test set (400 instances): 0.2060 
+
+In iteration 371: 
+Forward pass output: 0.3518 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2027 
+
+In iteration 372: 
+Forward pass output: 0.3242 
+Average squared error on training set (100 instances): 0.2207 
+Average squared error on test set (400 instances): 0.2102 
+
+In iteration 373: 
+Forward pass output: 0.3761 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2050 
+
+In iteration 374: 
+Forward pass output: 0.3449 
+Average squared error on training set (100 instances): 0.2237 
+Average squared error on test set (400 instances): 0.2150 
+
+In iteration 375: 
+Forward pass output: 0.3980 
+Average squared error on training set (100 instances): 0.2195 
+Average squared error on test set (400 instances): 0.2079 
+
+In iteration 376: 
+Forward pass output: 0.3636 
+Average squared error on training set (100 instances): 0.2270 
+Average squared error on test set (400 instances): 0.2200 
+
+In iteration 377: 
+Forward pass output: 0.4172 
+Average squared error on training set (100 instances): 0.2402 
+Average squared error on test set (400 instances): 0.2377 
+
+In iteration 378: 
+Forward pass output: 0.4704 
+Average squared error on training set (100 instances): 0.2577 
+Average squared error on test set (400 instances): 0.2595 
+
+In iteration 379: 
+Forward pass output: 0.5203 
+Average squared error on training set (100 instances): 0.2405 
+Average squared error on test set (400 instances): 0.2380 
+
+In iteration 380: 
+Forward pass output: 0.4712 
+Average squared error on training set (100 instances): 0.2291 
+Average squared error on test set (400 instances): 0.2229 
+
+In iteration 381: 
+Forward pass output: 0.4272 
+Average squared error on training set (100 instances): 0.2223 
+Average squared error on test set (400 instances): 0.2129 
+
+In iteration 382: 
+Forward pass output: 0.3889 
+Average squared error on training set (100 instances): 0.2189 
+Average squared error on test set (400 instances): 0.2066 
+
+In iteration 383: 
+Forward pass output: 0.3559 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2030 
+
+In iteration 384: 
+Forward pass output: 0.3278 
+Average squared error on training set (100 instances): 0.2179 
+Average squared error on test set (400 instances): 0.2012 
+
+In iteration 385: 
+Forward pass output: 0.3038 
+Average squared error on training set (100 instances): 0.2187 
+Average squared error on test set (400 instances): 0.2063 
+
+In iteration 386: 
+Forward pass output: 0.3538 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2028 
+
+In iteration 387: 
+Forward pass output: 0.3261 
+Average squared error on training set (100 instances): 0.2179 
+Average squared error on test set (400 instances): 0.2011 
+
+In iteration 388: 
+Forward pass output: 0.3023 
+Average squared error on training set (100 instances): 0.2186 
+Average squared error on test set (400 instances): 0.2061 
+
+In iteration 389: 
+Forward pass output: 0.3522 
+Average squared error on training set (100 instances): 0.2248 
+Average squared error on test set (400 instances): 0.2168 
+
+In iteration 390: 
+Forward pass output: 0.4050 
+Average squared error on training set (100 instances): 0.2201 
+Average squared error on test set (400 instances): 0.2090 
+
+In iteration 391: 
+Forward pass output: 0.3699 
+Average squared error on training set (100 instances): 0.2283 
+Average squared error on test set (400 instances): 0.2217 
+
+In iteration 392: 
+Forward pass output: 0.4232 
+Average squared error on training set (100 instances): 0.2219 
+Average squared error on test set (400 instances): 0.2122 
+
+In iteration 393: 
+Forward pass output: 0.3857 
+Average squared error on training set (100 instances): 0.2187 
+Average squared error on test set (400 instances): 0.2062 
+
+In iteration 394: 
+Forward pass output: 0.3534 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2028 
+
+In iteration 395: 
+Forward pass output: 0.3258 
+Average squared error on training set (100 instances): 0.2179 
+Average squared error on test set (400 instances): 0.2011 
+
+In iteration 396: 
+Forward pass output: 0.3022 
+Average squared error on training set (100 instances): 0.2190 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 397: 
+Forward pass output: 0.2819 
+Average squared error on training set (100 instances): 0.2207 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 398: 
+Forward pass output: 0.2643 
+Average squared error on training set (100 instances): 0.2226 
+Average squared error on test set (400 instances): 0.2013 
+
+In iteration 399: 
+Forward pass output: 0.2491 
+Average squared error on training set (100 instances): 0.2247 
+Average squared error on test set (400 instances): 0.2022 
+
+In iteration 400: 
+Forward pass output: 0.2356 
+Average squared error on training set (100 instances): 0.2268 
+Average squared error on test set (400 instances): 0.2034 
+
+In iteration 401: 
+Forward pass output: 0.2237 
+Average squared error on training set (100 instances): 0.2290 
+Average squared error on test set (400 instances): 0.2046 
+
+In iteration 402: 
+Forward pass output: 0.2133 
+Average squared error on training set (100 instances): 0.2311 
+Average squared error on test set (400 instances): 0.2059 
+
+In iteration 403: 
+Forward pass output: 0.2039 
+Average squared error on training set (100 instances): 0.2331 
+Average squared error on test set (400 instances): 0.2072 
+
+In iteration 404: 
+Forward pass output: 0.1954 
+Average squared error on training set (100 instances): 0.2351 
+Average squared error on test set (400 instances): 0.2085 
+
+In iteration 405: 
+Forward pass output: 0.1878 
+Average squared error on training set (100 instances): 0.2370 
+Average squared error on test set (400 instances): 0.2098 
+
+In iteration 406: 
+Forward pass output: 0.1809 
+Average squared error on training set (100 instances): 0.2388 
+Average squared error on test set (400 instances): 0.2111 
+
+In iteration 407: 
+Forward pass output: 0.1744 
+Average squared error on training set (100 instances): 0.2405 
+Average squared error on test set (400 instances): 0.2123 
+
+In iteration 408: 
+Forward pass output: 0.1687 
+Average squared error on training set (100 instances): 0.2421 
+Average squared error on test set (400 instances): 0.2135 
+
+In iteration 409: 
+Forward pass output: 0.1633 
+Average squared error on training set (100 instances): 0.2437 
+Average squared error on test set (400 instances): 0.2147 
+
+In iteration 410: 
+Forward pass output: 0.1583 
+Average squared error on training set (100 instances): 0.2452 
+Average squared error on test set (400 instances): 0.2158 
+
+In iteration 411: 
+Forward pass output: 0.1538 
+Average squared error on training set (100 instances): 0.2466 
+Average squared error on test set (400 instances): 0.2169 
+
+In iteration 412: 
+Forward pass output: 0.1495 
+Average squared error on training set (100 instances): 0.2480 
+Average squared error on test set (400 instances): 0.2179 
+
+In iteration 413: 
+Forward pass output: 0.1456 
+Average squared error on training set (100 instances): 0.2493 
+Average squared error on test set (400 instances): 0.2189 
+
+In iteration 414: 
+Forward pass output: 0.1419 
+Average squared error on training set (100 instances): 0.2506 
+Average squared error on test set (400 instances): 0.2198 
+
+In iteration 415: 
+Forward pass output: 0.1384 
+Average squared error on training set (100 instances): 0.2432 
+Average squared error on test set (400 instances): 0.2143 
+
+In iteration 416: 
+Forward pass output: 0.1601 
+Average squared error on training set (100 instances): 0.2447 
+Average squared error on test set (400 instances): 0.2154 
+
+In iteration 417: 
+Forward pass output: 0.1554 
+Average squared error on training set (100 instances): 0.2461 
+Average squared error on test set (400 instances): 0.2165 
+
+In iteration 418: 
+Forward pass output: 0.1510 
+Average squared error on training set (100 instances): 0.2475 
+Average squared error on test set (400 instances): 0.2175 
+
+In iteration 419: 
+Forward pass output: 0.1470 
+Average squared error on training set (100 instances): 0.2399 
+Average squared error on test set (400 instances): 0.2119 
+
+In iteration 420: 
+Forward pass output: 0.1706 
+Average squared error on training set (100 instances): 0.2416 
+Average squared error on test set (400 instances): 0.2131 
+
+In iteration 421: 
+Forward pass output: 0.1650 
+Average squared error on training set (100 instances): 0.2432 
+Average squared error on test set (400 instances): 0.2143 
+
+In iteration 422: 
+Forward pass output: 0.1599 
+Average squared error on training set (100 instances): 0.2355 
+Average squared error on test set (400 instances): 0.2088 
+
+In iteration 423: 
+Forward pass output: 0.1863 
+Average squared error on training set (100 instances): 0.2280 
+Average squared error on test set (400 instances): 0.2040 
+
+In iteration 424: 
+Forward pass output: 0.2182 
+Average squared error on training set (100 instances): 0.2217 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 425: 
+Forward pass output: 0.2561 
+Average squared error on training set (100 instances): 0.2237 
+Average squared error on test set (400 instances): 0.2018 
+
+In iteration 426: 
+Forward pass output: 0.2419 
+Average squared error on training set (100 instances): 0.2258 
+Average squared error on test set (400 instances): 0.2028 
+
+In iteration 427: 
+Forward pass output: 0.2293 
+Average squared error on training set (100 instances): 0.2279 
+Average squared error on test set (400 instances): 0.2040 
+
+In iteration 428: 
+Forward pass output: 0.2183 
+Average squared error on training set (100 instances): 0.2300 
+Average squared error on test set (400 instances): 0.2053 
+
+In iteration 429: 
+Forward pass output: 0.2084 
+Average squared error on training set (100 instances): 0.2321 
+Average squared error on test set (400 instances): 0.2066 
+
+In iteration 430: 
+Forward pass output: 0.1995 
+Average squared error on training set (100 instances): 0.2250 
+Average squared error on test set (400 instances): 0.2024 
+
+In iteration 431: 
+Forward pass output: 0.2340 
+Average squared error on training set (100 instances): 0.2197 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 432: 
+Forward pass output: 0.2746 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2024 
+
+In iteration 433: 
+Forward pass output: 0.3209 
+Average squared error on training set (100 instances): 0.2181 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 434: 
+Forward pass output: 0.2982 
+Average squared error on training set (100 instances): 0.2183 
+Average squared error on test set (400 instances): 0.2053 
+
+In iteration 435: 
+Forward pass output: 0.3470 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2023 
+
+In iteration 436: 
+Forward pass output: 0.3206 
+Average squared error on training set (100 instances): 0.2181 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 437: 
+Forward pass output: 0.2979 
+Average squared error on training set (100 instances): 0.2183 
+Average squared error on test set (400 instances): 0.2053 
+
+In iteration 438: 
+Forward pass output: 0.3466 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2023 
+
+In iteration 439: 
+Forward pass output: 0.3204 
+Average squared error on training set (100 instances): 0.2202 
+Average squared error on test set (400 instances): 0.2092 
+
+In iteration 440: 
+Forward pass output: 0.3709 
+Average squared error on training set (100 instances): 0.2283 
+Average squared error on test set (400 instances): 0.2218 
+
+In iteration 441: 
+Forward pass output: 0.4235 
+Average squared error on training set (100 instances): 0.2417 
+Average squared error on test set (400 instances): 0.2396 
+
+In iteration 442: 
+Forward pass output: 0.4754 
+Average squared error on training set (100 instances): 0.2592 
+Average squared error on test set (400 instances): 0.2612 
+
+In iteration 443: 
+Forward pass output: 0.5239 
+Average squared error on training set (100 instances): 0.2789 
+Average squared error on test set (400 instances): 0.2847 
+
+In iteration 444: 
+Forward pass output: 0.5676 
+Average squared error on training set (100 instances): 0.2561 
+Average squared error on test set (400 instances): 0.2575 
+
+In iteration 445: 
+Forward pass output: 0.5162 
+Average squared error on training set (100 instances): 0.2396 
+Average squared error on test set (400 instances): 0.2370 
+
+In iteration 446: 
+Forward pass output: 0.4685 
+Average squared error on training set (100 instances): 0.2288 
+Average squared error on test set (400 instances): 0.2225 
+
+In iteration 447: 
+Forward pass output: 0.4257 
+Average squared error on training set (100 instances): 0.2223 
+Average squared error on test set (400 instances): 0.2128 
+
+In iteration 448: 
+Forward pass output: 0.3884 
+Average squared error on training set (100 instances): 0.2322 
+Average squared error on test set (400 instances): 0.2272 
+
+In iteration 449: 
+Forward pass output: 0.4408 
+Average squared error on training set (100 instances): 0.2242 
+Average squared error on test set (400 instances): 0.2159 
+
+In iteration 450: 
+Forward pass output: 0.4015 
+Average squared error on training set (100 instances): 0.2355 
+Average squared error on test set (400 instances): 0.2316 
+
+In iteration 451: 
+Forward pass output: 0.4538 
+Average squared error on training set (100 instances): 0.2513 
+Average squared error on test set (400 instances): 0.2517 
+
+In iteration 452: 
+Forward pass output: 0.5037 
+Average squared error on training set (100 instances): 0.2364 
+Average squared error on test set (400 instances): 0.2328 
+
+In iteration 453: 
+Forward pass output: 0.4573 
+Average squared error on training set (100 instances): 0.2268 
+Average squared error on test set (400 instances): 0.2197 
+
+In iteration 454: 
+Forward pass output: 0.4161 
+Average squared error on training set (100 instances): 0.2394 
+Average squared error on test set (400 instances): 0.2367 
+
+In iteration 455: 
+Forward pass output: 0.4677 
+Average squared error on training set (100 instances): 0.2287 
+Average squared error on test set (400 instances): 0.2223 
+
+In iteration 456: 
+Forward pass output: 0.4253 
+Average squared error on training set (100 instances): 0.2222 
+Average squared error on test set (400 instances): 0.2128 
+
+In iteration 457: 
+Forward pass output: 0.3882 
+Average squared error on training set (100 instances): 0.2189 
+Average squared error on test set (400 instances): 0.2067 
+
+In iteration 458: 
+Forward pass output: 0.3563 
+Average squared error on training set (100 instances): 0.2253 
+Average squared error on test set (400 instances): 0.2175 
+
+In iteration 459: 
+Forward pass output: 0.4081 
+Average squared error on training set (100 instances): 0.2204 
+Average squared error on test set (400 instances): 0.2097 
+
+In iteration 460: 
+Forward pass output: 0.3733 
+Average squared error on training set (100 instances): 0.2181 
+Average squared error on test set (400 instances): 0.2048 
+
+In iteration 461: 
+Forward pass output: 0.3435 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2021 
+
+In iteration 462: 
+Forward pass output: 0.3179 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2008 
+
+In iteration 463: 
+Forward pass output: 0.2959 
+Average squared error on training set (100 instances): 0.2194 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 464: 
+Forward pass output: 0.2769 
+Average squared error on training set (100 instances): 0.2211 
+Average squared error on test set (400 instances): 0.2008 
+
+In iteration 465: 
+Forward pass output: 0.2604 
+Average squared error on training set (100 instances): 0.2231 
+Average squared error on test set (400 instances): 0.2015 
+
+In iteration 466: 
+Forward pass output: 0.2459 
+Average squared error on training set (100 instances): 0.2251 
+Average squared error on test set (400 instances): 0.2024 
+
+In iteration 467: 
+Forward pass output: 0.2331 
+Average squared error on training set (100 instances): 0.2272 
+Average squared error on test set (400 instances): 0.2036 
+
+In iteration 468: 
+Forward pass output: 0.2218 
+Average squared error on training set (100 instances): 0.2212 
+Average squared error on test set (400 instances): 0.2008 
+
+In iteration 469: 
+Forward pass output: 0.2597 
+Average squared error on training set (100 instances): 0.2179 
+Average squared error on test set (400 instances): 0.2011 
+
+In iteration 470: 
+Forward pass output: 0.3033 
+Average squared error on training set (100 instances): 0.2186 
+Average squared error on test set (400 instances): 0.2060 
+
+In iteration 471: 
+Forward pass output: 0.3517 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2027 
+
+In iteration 472: 
+Forward pass output: 0.3252 
+Average squared error on training set (100 instances): 0.2206 
+Average squared error on test set (400 instances): 0.2100 
+
+In iteration 473: 
+Forward pass output: 0.3751 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2051 
+
+In iteration 474: 
+Forward pass output: 0.3451 
+Average squared error on training set (100 instances): 0.2234 
+Average squared error on test set (400 instances): 0.2146 
+
+In iteration 475: 
+Forward pass output: 0.3962 
+Average squared error on training set (100 instances): 0.2195 
+Average squared error on test set (400 instances): 0.2079 
+
+In iteration 476: 
+Forward pass output: 0.3634 
+Average squared error on training set (100 instances): 0.2266 
+Average squared error on test set (400 instances): 0.2194 
+
+In iteration 477: 
+Forward pass output: 0.4149 
+Average squared error on training set (100 instances): 0.2389 
+Average squared error on test set (400 instances): 0.2361 
+
+In iteration 478: 
+Forward pass output: 0.4661 
+Average squared error on training set (100 instances): 0.2554 
+Average squared error on test set (400 instances): 0.2567 
+
+In iteration 479: 
+Forward pass output: 0.5145 
+Average squared error on training set (100 instances): 0.2394 
+Average squared error on test set (400 instances): 0.2367 
+
+In iteration 480: 
+Forward pass output: 0.4677 
+Average squared error on training set (100 instances): 0.2288 
+Average squared error on test set (400 instances): 0.2225 
+
+In iteration 481: 
+Forward pass output: 0.4257 
+Average squared error on training set (100 instances): 0.2223 
+Average squared error on test set (400 instances): 0.2129 
+
+In iteration 482: 
+Forward pass output: 0.3890 
+Average squared error on training set (100 instances): 0.2190 
+Average squared error on test set (400 instances): 0.2068 
+
+In iteration 483: 
+Forward pass output: 0.3573 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2032 
+
+In iteration 484: 
+Forward pass output: 0.3300 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2013 
+
+In iteration 485: 
+Forward pass output: 0.3065 
+Average squared error on training set (100 instances): 0.2188 
+Average squared error on test set (400 instances): 0.2065 
+
+In iteration 486: 
+Forward pass output: 0.3549 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2030 
+
+In iteration 487: 
+Forward pass output: 0.3280 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2012 
+
+In iteration 488: 
+Forward pass output: 0.3049 
+Average squared error on training set (100 instances): 0.2187 
+Average squared error on test set (400 instances): 0.2062 
+
+In iteration 489: 
+Forward pass output: 0.3530 
+Average squared error on training set (100 instances): 0.2246 
+Average squared error on test set (400 instances): 0.2165 
+
+In iteration 490: 
+Forward pass output: 0.4039 
+Average squared error on training set (100 instances): 0.2201 
+Average squared error on test set (400 instances): 0.2091 
+
+In iteration 491: 
+Forward pass output: 0.3702 
+Average squared error on training set (100 instances): 0.2279 
+Average squared error on test set (400 instances): 0.2212 
+
+In iteration 492: 
+Forward pass output: 0.4215 
+Average squared error on training set (100 instances): 0.2219 
+Average squared error on test set (400 instances): 0.2122 
+
+In iteration 493: 
+Forward pass output: 0.3855 
+Average squared error on training set (100 instances): 0.2188 
+Average squared error on test set (400 instances): 0.2064 
+
+In iteration 494: 
+Forward pass output: 0.3544 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2030 
+
+In iteration 495: 
+Forward pass output: 0.3276 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2012 
+
+In iteration 496: 
+Forward pass output: 0.3047 
+Average squared error on training set (100 instances): 0.2188 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 497: 
+Forward pass output: 0.2848 
+Average squared error on training set (100 instances): 0.2203 
+Average squared error on test set (400 instances): 0.2006 
+
+In iteration 498: 
+Forward pass output: 0.2674 
+Average squared error on training set (100 instances): 0.2222 
+Average squared error on test set (400 instances): 0.2011 
+
+In iteration 499: 
+Forward pass output: 0.2524 
+Average squared error on training set (100 instances): 0.2241 
+Average squared error on test set (400 instances): 0.2020 
+
+In iteration 500: 
+Forward pass output: 0.2390 
+Average squared error on training set (100 instances): 0.2262 
+Average squared error on test set (400 instances): 0.2030 
+
+In iteration 501: 
+Forward pass output: 0.2272 
+Average squared error on training set (100 instances): 0.2282 
+Average squared error on test set (400 instances): 0.2042 
+
+In iteration 502: 
+Forward pass output: 0.2168 
+Average squared error on training set (100 instances): 0.2303 
+Average squared error on test set (400 instances): 0.2054 
+
+In iteration 503: 
+Forward pass output: 0.2074 
+Average squared error on training set (100 instances): 0.2323 
+Average squared error on test set (400 instances): 0.2067 
+
+In iteration 504: 
+Forward pass output: 0.1989 
+Average squared error on training set (100 instances): 0.2342 
+Average squared error on test set (400 instances): 0.2079 
+
+In iteration 505: 
+Forward pass output: 0.1912 
+Average squared error on training set (100 instances): 0.2360 
+Average squared error on test set (400 instances): 0.2092 
+
+In iteration 506: 
+Forward pass output: 0.1843 
+Average squared error on training set (100 instances): 0.2378 
+Average squared error on test set (400 instances): 0.2104 
+
+In iteration 507: 
+Forward pass output: 0.1777 
+Average squared error on training set (100 instances): 0.2395 
+Average squared error on test set (400 instances): 0.2116 
+
+In iteration 508: 
+Forward pass output: 0.1720 
+Average squared error on training set (100 instances): 0.2411 
+Average squared error on test set (400 instances): 0.2128 
+
+In iteration 509: 
+Forward pass output: 0.1664 
+Average squared error on training set (100 instances): 0.2427 
+Average squared error on test set (400 instances): 0.2139 
+
+In iteration 510: 
+Forward pass output: 0.1614 
+Average squared error on training set (100 instances): 0.2442 
+Average squared error on test set (400 instances): 0.2150 
+
+In iteration 511: 
+Forward pass output: 0.1569 
+Average squared error on training set (100 instances): 0.2456 
+Average squared error on test set (400 instances): 0.2161 
+
+In iteration 512: 
+Forward pass output: 0.1525 
+Average squared error on training set (100 instances): 0.2470 
+Average squared error on test set (400 instances): 0.2171 
+
+In iteration 513: 
+Forward pass output: 0.1485 
+Average squared error on training set (100 instances): 0.2483 
+Average squared error on test set (400 instances): 0.2181 
+
+In iteration 514: 
+Forward pass output: 0.1448 
+Average squared error on training set (100 instances): 0.2495 
+Average squared error on test set (400 instances): 0.2190 
+
+In iteration 515: 
+Forward pass output: 0.1413 
+Average squared error on training set (100 instances): 0.2423 
+Average squared error on test set (400 instances): 0.2136 
+
+In iteration 516: 
+Forward pass output: 0.1627 
+Average squared error on training set (100 instances): 0.2438 
+Average squared error on test set (400 instances): 0.2148 
+
+In iteration 517: 
+Forward pass output: 0.1581 
+Average squared error on training set (100 instances): 0.2453 
+Average squared error on test set (400 instances): 0.2158 
+
+In iteration 518: 
+Forward pass output: 0.1536 
+Average squared error on training set (100 instances): 0.2466 
+Average squared error on test set (400 instances): 0.2168 
+
+In iteration 519: 
+Forward pass output: 0.1496 
+Average squared error on training set (100 instances): 0.2393 
+Average squared error on test set (400 instances): 0.2114 
+
+In iteration 520: 
+Forward pass output: 0.1728 
+Average squared error on training set (100 instances): 0.2409 
+Average squared error on test set (400 instances): 0.2126 
+
+In iteration 521: 
+Forward pass output: 0.1673 
+Average squared error on training set (100 instances): 0.2425 
+Average squared error on test set (400 instances): 0.2138 
+
+In iteration 522: 
+Forward pass output: 0.1622 
+Average squared error on training set (100 instances): 0.2350 
+Average squared error on test set (400 instances): 0.2085 
+
+In iteration 523: 
+Forward pass output: 0.1881 
+Average squared error on training set (100 instances): 0.2278 
+Average squared error on test set (400 instances): 0.2039 
+
+In iteration 524: 
+Forward pass output: 0.2190 
+Average squared error on training set (100 instances): 0.2217 
+Average squared error on test set (400 instances): 0.2010 
+
+In iteration 525: 
+Forward pass output: 0.2556 
+Average squared error on training set (100 instances): 0.2237 
+Average squared error on test set (400 instances): 0.2017 
+
+In iteration 526: 
+Forward pass output: 0.2419 
+Average squared error on training set (100 instances): 0.2257 
+Average squared error on test set (400 instances): 0.2027 
+
+In iteration 527: 
+Forward pass output: 0.2298 
+Average squared error on training set (100 instances): 0.2277 
+Average squared error on test set (400 instances): 0.2039 
+
+In iteration 528: 
+Forward pass output: 0.2191 
+Average squared error on training set (100 instances): 0.2298 
+Average squared error on test set (400 instances): 0.2051 
+
+In iteration 529: 
+Forward pass output: 0.2095 
+Average squared error on training set (100 instances): 0.2318 
+Average squared error on test set (400 instances): 0.2063 
+
+In iteration 530: 
+Forward pass output: 0.2009 
+Average squared error on training set (100 instances): 0.2249 
+Average squared error on test set (400 instances): 0.2023 
+
+In iteration 531: 
+Forward pass output: 0.2343 
+Average squared error on training set (100 instances): 0.2198 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 532: 
+Forward pass output: 0.2734 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2021 
+
+In iteration 533: 
+Forward pass output: 0.3177 
+Average squared error on training set (100 instances): 0.2181 
+Average squared error on test set (400 instances): 0.2008 
+
+In iteration 534: 
+Forward pass output: 0.2963 
+Average squared error on training set (100 instances): 0.2181 
+Average squared error on test set (400 instances): 0.2048 
+
+In iteration 535: 
+Forward pass output: 0.3431 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2021 
+
+In iteration 536: 
+Forward pass output: 0.3182 
+Average squared error on training set (100 instances): 0.2181 
+Average squared error on test set (400 instances): 0.2008 
+
+In iteration 537: 
+Forward pass output: 0.2966 
+Average squared error on training set (100 instances): 0.2181 
+Average squared error on test set (400 instances): 0.2048 
+
+In iteration 538: 
+Forward pass output: 0.3434 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2021 
+
+In iteration 539: 
+Forward pass output: 0.3186 
+Average squared error on training set (100 instances): 0.2198 
+Average squared error on test set (400 instances): 0.2085 
+
+In iteration 540: 
+Forward pass output: 0.3670 
+Average squared error on training set (100 instances): 0.2271 
+Average squared error on test set (400 instances): 0.2201 
+
+In iteration 541: 
+Forward pass output: 0.4176 
+Average squared error on training set (100 instances): 0.2394 
+Average squared error on test set (400 instances): 0.2367 
+
+In iteration 542: 
+Forward pass output: 0.4678 
+Average squared error on training set (100 instances): 0.2557 
+Average squared error on test set (400 instances): 0.2570 
+
+In iteration 543: 
+Forward pass output: 0.5152 
+Average squared error on training set (100 instances): 0.2744 
+Average squared error on test set (400 instances): 0.2793 
+
+In iteration 544: 
+Forward pass output: 0.5583 
+Average squared error on training set (100 instances): 0.2534 
+Average squared error on test set (400 instances): 0.2542 
+
+In iteration 545: 
+Forward pass output: 0.5092 
+Average squared error on training set (100 instances): 0.2383 
+Average squared error on test set (400 instances): 0.2352 
+
+In iteration 546: 
+Forward pass output: 0.4638 
+Average squared error on training set (100 instances): 0.2282 
+Average squared error on test set (400 instances): 0.2217 
+
+In iteration 547: 
+Forward pass output: 0.4231 
+Average squared error on training set (100 instances): 0.2221 
+Average squared error on test set (400 instances): 0.2126 
+
+In iteration 548: 
+Forward pass output: 0.3875 
+Average squared error on training set (100 instances): 0.2315 
+Average squared error on test set (400 instances): 0.2262 
+
+In iteration 549: 
+Forward pass output: 0.4379 
+Average squared error on training set (100 instances): 0.2240 
+Average squared error on test set (400 instances): 0.2156 
+
+In iteration 550: 
+Forward pass output: 0.4003 
+Average squared error on training set (100 instances): 0.2347 
+Average squared error on test set (400 instances): 0.2305 
+
+In iteration 551: 
+Forward pass output: 0.4508 
+Average squared error on training set (100 instances): 0.2497 
+Average squared error on test set (400 instances): 0.2496 
+
+In iteration 552: 
+Forward pass output: 0.4991 
+Average squared error on training set (100 instances): 0.2358 
+Average squared error on test set (400 instances): 0.2319 
+
+In iteration 553: 
+Forward pass output: 0.4547 
+Average squared error on training set (100 instances): 0.2267 
+Average squared error on test set (400 instances): 0.2195 
+
+In iteration 554: 
+Forward pass output: 0.4153 
+Average squared error on training set (100 instances): 0.2387 
+Average squared error on test set (400 instances): 0.2357 
+
+In iteration 555: 
+Forward pass output: 0.4651 
+Average squared error on training set (100 instances): 0.2285 
+Average squared error on test set (400 instances): 0.2221 
+
+In iteration 556: 
+Forward pass output: 0.4245 
+Average squared error on training set (100 instances): 0.2223 
+Average squared error on test set (400 instances): 0.2129 
+
+In iteration 557: 
+Forward pass output: 0.3888 
+Average squared error on training set (100 instances): 0.2190 
+Average squared error on test set (400 instances): 0.2069 
+
+In iteration 558: 
+Forward pass output: 0.3579 
+Average squared error on training set (100 instances): 0.2253 
+Average squared error on test set (400 instances): 0.2175 
+
+In iteration 559: 
+Forward pass output: 0.4079 
+Average squared error on training set (100 instances): 0.2205 
+Average squared error on test set (400 instances): 0.2099 
+
+In iteration 560: 
+Forward pass output: 0.3743 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2051 
+
+In iteration 561: 
+Forward pass output: 0.3454 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2023 
+
+In iteration 562: 
+Forward pass output: 0.3204 
+Average squared error on training set (100 instances): 0.2180 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 563: 
+Forward pass output: 0.2989 
+Average squared error on training set (100 instances): 0.2192 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 564: 
+Forward pass output: 0.2802 
+Average squared error on training set (100 instances): 0.2207 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 565: 
+Forward pass output: 0.2638 
+Average squared error on training set (100 instances): 0.2226 
+Average squared error on test set (400 instances): 0.2013 
+
+In iteration 566: 
+Forward pass output: 0.2494 
+Average squared error on training set (100 instances): 0.2245 
+Average squared error on test set (400 instances): 0.2021 
+
+In iteration 567: 
+Forward pass output: 0.2367 
+Average squared error on training set (100 instances): 0.2265 
+Average squared error on test set (400 instances): 0.2032 
+
+In iteration 568: 
+Forward pass output: 0.2253 
+Average squared error on training set (100 instances): 0.2209 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 569: 
+Forward pass output: 0.2624 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2012 
+
+In iteration 570: 
+Forward pass output: 0.3048 
+Average squared error on training set (100 instances): 0.2186 
+Average squared error on test set (400 instances): 0.2060 
+
+In iteration 571: 
+Forward pass output: 0.3515 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2028 
+
+In iteration 572: 
+Forward pass output: 0.3261 
+Average squared error on training set (100 instances): 0.2205 
+Average squared error on test set (400 instances): 0.2098 
+
+In iteration 573: 
+Forward pass output: 0.3741 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2051 
+
+In iteration 574: 
+Forward pass output: 0.3453 
+Average squared error on training set (100 instances): 0.2231 
+Average squared error on test set (400 instances): 0.2142 
+
+In iteration 575: 
+Forward pass output: 0.3946 
+Average squared error on training set (100 instances): 0.2194 
+Average squared error on test set (400 instances): 0.2078 
+
+In iteration 576: 
+Forward pass output: 0.3631 
+Average squared error on training set (100 instances): 0.2262 
+Average squared error on test set (400 instances): 0.2188 
+
+In iteration 577: 
+Forward pass output: 0.4128 
+Average squared error on training set (100 instances): 0.2378 
+Average squared error on test set (400 instances): 0.2346 
+
+In iteration 578: 
+Forward pass output: 0.4623 
+Average squared error on training set (100 instances): 0.2534 
+Average squared error on test set (400 instances): 0.2542 
+
+In iteration 579: 
+Forward pass output: 0.5092 
+Average squared error on training set (100 instances): 0.2385 
+Average squared error on test set (400 instances): 0.2355 
+
+In iteration 580: 
+Forward pass output: 0.4645 
+Average squared error on training set (100 instances): 0.2285 
+Average squared error on test set (400 instances): 0.2220 
+
+In iteration 581: 
+Forward pass output: 0.4243 
+Average squared error on training set (100 instances): 0.2223 
+Average squared error on test set (400 instances): 0.2129 
+
+In iteration 582: 
+Forward pass output: 0.3890 
+Average squared error on training set (100 instances): 0.2190 
+Average squared error on test set (400 instances): 0.2070 
+
+In iteration 583: 
+Forward pass output: 0.3584 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2034 
+
+In iteration 584: 
+Forward pass output: 0.3318 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2015 
+
+In iteration 585: 
+Forward pass output: 0.3090 
+Average squared error on training set (100 instances): 0.2189 
+Average squared error on test set (400 instances): 0.2066 
+
+In iteration 586: 
+Forward pass output: 0.3558 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2032 
+
+In iteration 587: 
+Forward pass output: 0.3297 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2013 
+
+In iteration 588: 
+Forward pass output: 0.3071 
+Average squared error on training set (100 instances): 0.2187 
+Average squared error on test set (400 instances): 0.2063 
+
+In iteration 589: 
+Forward pass output: 0.3537 
+Average squared error on training set (100 instances): 0.2244 
+Average squared error on test set (400 instances): 0.2162 
+
+In iteration 590: 
+Forward pass output: 0.4028 
+Average squared error on training set (100 instances): 0.2201 
+Average squared error on test set (400 instances): 0.2091 
+
+In iteration 591: 
+Forward pass output: 0.3703 
+Average squared error on training set (100 instances): 0.2276 
+Average squared error on test set (400 instances): 0.2208 
+
+In iteration 592: 
+Forward pass output: 0.4199 
+Average squared error on training set (100 instances): 0.2219 
+Average squared error on test set (400 instances): 0.2121 
+
+In iteration 593: 
+Forward pass output: 0.3854 
+Average squared error on training set (100 instances): 0.2188 
+Average squared error on test set (400 instances): 0.2065 
+
+In iteration 594: 
+Forward pass output: 0.3553 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2032 
+
+In iteration 595: 
+Forward pass output: 0.3293 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2013 
+
+In iteration 596: 
+Forward pass output: 0.3069 
+Average squared error on training set (100 instances): 0.2186 
+Average squared error on test set (400 instances): 0.2006 
+
+In iteration 597: 
+Forward pass output: 0.2874 
+Average squared error on training set (100 instances): 0.2200 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 598: 
+Forward pass output: 0.2703 
+Average squared error on training set (100 instances): 0.2217 
+Average squared error on test set (400 instances): 0.2010 
+
+In iteration 599: 
+Forward pass output: 0.2555 
+Average squared error on training set (100 instances): 0.2236 
+Average squared error on test set (400 instances): 0.2017 
+
+In iteration 600: 
+Forward pass output: 0.2422 
+Average squared error on training set (100 instances): 0.2256 
+Average squared error on test set (400 instances): 0.2027 
+
+In iteration 601: 
+Forward pass output: 0.2303 
+Average squared error on training set (100 instances): 0.2276 
+Average squared error on test set (400 instances): 0.2038 
+
+In iteration 602: 
+Forward pass output: 0.2200 
+Average squared error on training set (100 instances): 0.2295 
+Average squared error on test set (400 instances): 0.2049 
+
+In iteration 603: 
+Forward pass output: 0.2106 
+Average squared error on training set (100 instances): 0.2315 
+Average squared error on test set (400 instances): 0.2062 
+
+In iteration 604: 
+Forward pass output: 0.2021 
+Average squared error on training set (100 instances): 0.2333 
+Average squared error on test set (400 instances): 0.2074 
+
+In iteration 605: 
+Forward pass output: 0.1944 
+Average squared error on training set (100 instances): 0.2352 
+Average squared error on test set (400 instances): 0.2086 
+
+In iteration 606: 
+Forward pass output: 0.1875 
+Average squared error on training set (100 instances): 0.2369 
+Average squared error on test set (400 instances): 0.2098 
+
+In iteration 607: 
+Forward pass output: 0.1807 
+Average squared error on training set (100 instances): 0.2386 
+Average squared error on test set (400 instances): 0.2110 
+
+In iteration 608: 
+Forward pass output: 0.1751 
+Average squared error on training set (100 instances): 0.2402 
+Average squared error on test set (400 instances): 0.2121 
+
+In iteration 609: 
+Forward pass output: 0.1694 
+Average squared error on training set (100 instances): 0.2417 
+Average squared error on test set (400 instances): 0.2132 
+
+In iteration 610: 
+Forward pass output: 0.1643 
+Average squared error on training set (100 instances): 0.2432 
+Average squared error on test set (400 instances): 0.2143 
+
+In iteration 611: 
+Forward pass output: 0.1599 
+Average squared error on training set (100 instances): 0.2446 
+Average squared error on test set (400 instances): 0.2154 
+
+In iteration 612: 
+Forward pass output: 0.1553 
+Average squared error on training set (100 instances): 0.2460 
+Average squared error on test set (400 instances): 0.2164 
+
+In iteration 613: 
+Forward pass output: 0.1513 
+Average squared error on training set (100 instances): 0.2473 
+Average squared error on test set (400 instances): 0.2173 
+
+In iteration 614: 
+Forward pass output: 0.1476 
+Average squared error on training set (100 instances): 0.2485 
+Average squared error on test set (400 instances): 0.2183 
+
+In iteration 615: 
+Forward pass output: 0.1441 
+Average squared error on training set (100 instances): 0.2415 
+Average squared error on test set (400 instances): 0.2131 
+
+In iteration 616: 
+Forward pass output: 0.1651 
+Average squared error on training set (100 instances): 0.2430 
+Average squared error on test set (400 instances): 0.2141 
+
+In iteration 617: 
+Forward pass output: 0.1606 
+Average squared error on training set (100 instances): 0.2444 
+Average squared error on test set (400 instances): 0.2152 
+
+In iteration 618: 
+Forward pass output: 0.1561 
+Average squared error on training set (100 instances): 0.2458 
+Average squared error on test set (400 instances): 0.2162 
+
+In iteration 619: 
+Forward pass output: 0.1521 
+Average squared error on training set (100 instances): 0.2386 
+Average squared error on test set (400 instances): 0.2110 
+
+In iteration 620: 
+Forward pass output: 0.1750 
+Average squared error on training set (100 instances): 0.2402 
+Average squared error on test set (400 instances): 0.2121 
+
+In iteration 621: 
+Forward pass output: 0.1694 
+Average squared error on training set (100 instances): 0.2418 
+Average squared error on test set (400 instances): 0.2133 
+
+In iteration 622: 
+Forward pass output: 0.1643 
+Average squared error on training set (100 instances): 0.2345 
+Average squared error on test set (400 instances): 0.2082 
+
+In iteration 623: 
+Forward pass output: 0.1898 
+Average squared error on training set (100 instances): 0.2276 
+Average squared error on test set (400 instances): 0.2038 
+
+In iteration 624: 
+Forward pass output: 0.2198 
+Average squared error on training set (100 instances): 0.2217 
+Average squared error on test set (400 instances): 0.2010 
+
+In iteration 625: 
+Forward pass output: 0.2553 
+Average squared error on training set (100 instances): 0.2236 
+Average squared error on test set (400 instances): 0.2017 
+
+In iteration 626: 
+Forward pass output: 0.2421 
+Average squared error on training set (100 instances): 0.2256 
+Average squared error on test set (400 instances): 0.2027 
+
+In iteration 627: 
+Forward pass output: 0.2303 
+Average squared error on training set (100 instances): 0.2276 
+Average squared error on test set (400 instances): 0.2038 
+
+In iteration 628: 
+Forward pass output: 0.2199 
+Average squared error on training set (100 instances): 0.2295 
+Average squared error on test set (400 instances): 0.2049 
+
+In iteration 629: 
+Forward pass output: 0.2106 
+Average squared error on training set (100 instances): 0.2314 
+Average squared error on test set (400 instances): 0.2061 
+
+In iteration 630: 
+Forward pass output: 0.2022 
+Average squared error on training set (100 instances): 0.2249 
+Average squared error on test set (400 instances): 0.2023 
+
+In iteration 631: 
+Forward pass output: 0.2347 
+Average squared error on training set (100 instances): 0.2198 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 632: 
+Forward pass output: 0.2725 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2019 
+
+In iteration 633: 
+Forward pass output: 0.3149 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2008 
+
+In iteration 634: 
+Forward pass output: 0.2947 
+Average squared error on training set (100 instances): 0.2180 
+Average squared error on test set (400 instances): 0.2043 
+
+In iteration 635: 
+Forward pass output: 0.3396 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2019 
+
+In iteration 636: 
+Forward pass output: 0.3160 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2008 
+
+In iteration 637: 
+Forward pass output: 0.2955 
+Average squared error on training set (100 instances): 0.2180 
+Average squared error on test set (400 instances): 0.2044 
+
+In iteration 638: 
+Forward pass output: 0.3404 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2020 
+
+In iteration 639: 
+Forward pass output: 0.3170 
+Average squared error on training set (100 instances): 0.2195 
+Average squared error on test set (400 instances): 0.2079 
+
+In iteration 640: 
+Forward pass output: 0.3635 
+Average squared error on training set (100 instances): 0.2261 
+Average squared error on test set (400 instances): 0.2186 
+
+In iteration 641: 
+Forward pass output: 0.4122 
+Average squared error on training set (100 instances): 0.2374 
+Average squared error on test set (400 instances): 0.2341 
+
+In iteration 642: 
+Forward pass output: 0.4609 
+Average squared error on training set (100 instances): 0.2526 
+Average squared error on test set (400 instances): 0.2532 
+
+In iteration 643: 
+Forward pass output: 0.5071 
+Average squared error on training set (100 instances): 0.2703 
+Average squared error on test set (400 instances): 0.2745 
+
+In iteration 644: 
+Forward pass output: 0.5496 
+Average squared error on training set (100 instances): 0.2509 
+Average squared error on test set (400 instances): 0.2512 
+
+In iteration 645: 
+Forward pass output: 0.5026 
+Average squared error on training set (100 instances): 0.2370 
+Average squared error on test set (400 instances): 0.2335 
+
+In iteration 646: 
+Forward pass output: 0.4593 
+Average squared error on training set (100 instances): 0.2277 
+Average squared error on test set (400 instances): 0.2209 
+
+In iteration 647: 
+Forward pass output: 0.4205 
+Average squared error on training set (100 instances): 0.2220 
+Average squared error on test set (400 instances): 0.2123 
+
+In iteration 648: 
+Forward pass output: 0.3864 
+Average squared error on training set (100 instances): 0.2308 
+Average squared error on test set (400 instances): 0.2253 
+
+In iteration 649: 
+Forward pass output: 0.4351 
+Average squared error on training set (100 instances): 0.2238 
+Average squared error on test set (400 instances): 0.2153 
+
+In iteration 650: 
+Forward pass output: 0.3990 
+Average squared error on training set (100 instances): 0.2339 
+Average squared error on test set (400 instances): 0.2295 
+
+In iteration 651: 
+Forward pass output: 0.4479 
+Average squared error on training set (100 instances): 0.2481 
+Average squared error on test set (400 instances): 0.2477 
+
+In iteration 652: 
+Forward pass output: 0.4947 
+Average squared error on training set (100 instances): 0.2351 
+Average squared error on test set (400 instances): 0.2310 
+
+In iteration 653: 
+Forward pass output: 0.4523 
+Average squared error on training set (100 instances): 0.2265 
+Average squared error on test set (400 instances): 0.2192 
+
+In iteration 654: 
+Forward pass output: 0.4144 
+Average squared error on training set (100 instances): 0.2379 
+Average squared error on test set (400 instances): 0.2347 
+
+In iteration 655: 
+Forward pass output: 0.4626 
+Average squared error on training set (100 instances): 0.2283 
+Average squared error on test set (400 instances): 0.2218 
+
+In iteration 656: 
+Forward pass output: 0.4236 
+Average squared error on training set (100 instances): 0.2224 
+Average squared error on test set (400 instances): 0.2129 
+
+In iteration 657: 
+Forward pass output: 0.3891 
+Average squared error on training set (100 instances): 0.2191 
+Average squared error on test set (400 instances): 0.2071 
+
+In iteration 658: 
+Forward pass output: 0.3592 
+Average squared error on training set (100 instances): 0.2252 
+Average squared error on test set (400 instances): 0.2174 
+
+In iteration 659: 
+Forward pass output: 0.4076 
+Average squared error on training set (100 instances): 0.2206 
+Average squared error on test set (400 instances): 0.2100 
+
+In iteration 660: 
+Forward pass output: 0.3751 
+Average squared error on training set (100 instances): 0.2183 
+Average squared error on test set (400 instances): 0.2053 
+
+In iteration 661: 
+Forward pass output: 0.3471 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2025 
+
+In iteration 662: 
+Forward pass output: 0.3226 
+Average squared error on training set (100 instances): 0.2179 
+Average squared error on test set (400 instances): 0.2010 
+
+In iteration 663: 
+Forward pass output: 0.3015 
+Average squared error on training set (100 instances): 0.2189 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 664: 
+Forward pass output: 0.2831 
+Average squared error on training set (100 instances): 0.2204 
+Average squared error on test set (400 instances): 0.2006 
+
+In iteration 665: 
+Forward pass output: 0.2668 
+Average squared error on training set (100 instances): 0.2221 
+Average squared error on test set (400 instances): 0.2011 
+
+In iteration 666: 
+Forward pass output: 0.2526 
+Average squared error on training set (100 instances): 0.2240 
+Average squared error on test set (400 instances): 0.2019 
+
+In iteration 667: 
+Forward pass output: 0.2399 
+Average squared error on training set (100 instances): 0.2259 
+Average squared error on test set (400 instances): 0.2028 
+
+In iteration 668: 
+Forward pass output: 0.2285 
+Average squared error on training set (100 instances): 0.2206 
+Average squared error on test set (400 instances): 0.2006 
+
+In iteration 669: 
+Forward pass output: 0.2650 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2013 
+
+In iteration 670: 
+Forward pass output: 0.3062 
+Average squared error on training set (100 instances): 0.2186 
+Average squared error on test set (400 instances): 0.2059 
+
+In iteration 671: 
+Forward pass output: 0.3514 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2029 
+
+In iteration 672: 
+Forward pass output: 0.3269 
+Average squared error on training set (100 instances): 0.2204 
+Average squared error on test set (400 instances): 0.2096 
+
+In iteration 673: 
+Forward pass output: 0.3732 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2051 
+
+In iteration 674: 
+Forward pass output: 0.3455 
+Average squared error on training set (100 instances): 0.2229 
+Average squared error on test set (400 instances): 0.2138 
+
+In iteration 675: 
+Forward pass output: 0.3931 
+Average squared error on training set (100 instances): 0.2194 
+Average squared error on test set (400 instances): 0.2077 
+
+In iteration 676: 
+Forward pass output: 0.3629 
+Average squared error on training set (100 instances): 0.2258 
+Average squared error on test set (400 instances): 0.2183 
+
+In iteration 677: 
+Forward pass output: 0.4108 
+Average squared error on training set (100 instances): 0.2368 
+Average squared error on test set (400 instances): 0.2333 
+
+In iteration 678: 
+Forward pass output: 0.4588 
+Average squared error on training set (100 instances): 0.2516 
+Average squared error on test set (400 instances): 0.2520 
+
+In iteration 679: 
+Forward pass output: 0.5044 
+Average squared error on training set (100 instances): 0.2376 
+Average squared error on test set (400 instances): 0.2344 
+
+In iteration 680: 
+Forward pass output: 0.4615 
+Average squared error on training set (100 instances): 0.2282 
+Average squared error on test set (400 instances): 0.2216 
+
+In iteration 681: 
+Forward pass output: 0.4229 
+Average squared error on training set (100 instances): 0.2223 
+Average squared error on test set (400 instances): 0.2129 
+
+In iteration 682: 
+Forward pass output: 0.3889 
+Average squared error on training set (100 instances): 0.2191 
+Average squared error on test set (400 instances): 0.2072 
+
+In iteration 683: 
+Forward pass output: 0.3593 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2036 
+
+In iteration 684: 
+Forward pass output: 0.3335 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2016 
+
+In iteration 685: 
+Forward pass output: 0.3112 
+Average squared error on training set (100 instances): 0.2189 
+Average squared error on test set (400 instances): 0.2067 
+
+In iteration 686: 
+Forward pass output: 0.3566 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2033 
+
+In iteration 687: 
+Forward pass output: 0.3312 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2015 
+
+In iteration 688: 
+Forward pass output: 0.3092 
+Average squared error on training set (100 instances): 0.2187 
+Average squared error on test set (400 instances): 0.2064 
+
+In iteration 689: 
+Forward pass output: 0.3543 
+Average squared error on training set (100 instances): 0.2243 
+Average squared error on test set (400 instances): 0.2159 
+
+In iteration 690: 
+Forward pass output: 0.4018 
+Average squared error on training set (100 instances): 0.2201 
+Average squared error on test set (400 instances): 0.2091 
+
+In iteration 691: 
+Forward pass output: 0.3704 
+Average squared error on training set (100 instances): 0.2273 
+Average squared error on test set (400 instances): 0.2204 
+
+In iteration 692: 
+Forward pass output: 0.4185 
+Average squared error on training set (100 instances): 0.2218 
+Average squared error on test set (400 instances): 0.2121 
+
+In iteration 693: 
+Forward pass output: 0.3852 
+Average squared error on training set (100 instances): 0.2189 
+Average squared error on test set (400 instances): 0.2066 
+
+In iteration 694: 
+Forward pass output: 0.3561 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2033 
+
+In iteration 695: 
+Forward pass output: 0.3307 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2014 
+
+In iteration 696: 
+Forward pass output: 0.3090 
+Average squared error on training set (100 instances): 0.2185 
+Average squared error on test set (400 instances): 0.2006 
+
+In iteration 697: 
+Forward pass output: 0.2898 
+Average squared error on training set (100 instances): 0.2198 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 698: 
+Forward pass output: 0.2729 
+Average squared error on training set (100 instances): 0.2214 
+Average squared error on test set (400 instances): 0.2008 
+
+In iteration 699: 
+Forward pass output: 0.2584 
+Average squared error on training set (100 instances): 0.2232 
+Average squared error on test set (400 instances): 0.2015 
+
+In iteration 700: 
+Forward pass output: 0.2451 
+Average squared error on training set (100 instances): 0.2250 
+Average squared error on test set (400 instances): 0.2024 
+
+In iteration 701: 
+Forward pass output: 0.2332 
+Average squared error on training set (100 instances): 0.2270 
+Average squared error on test set (400 instances): 0.2034 
+
+In iteration 702: 
+Forward pass output: 0.2230 
+Average squared error on training set (100 instances): 0.2289 
+Average squared error on test set (400 instances): 0.2045 
+
+In iteration 703: 
+Forward pass output: 0.2136 
+Average squared error on training set (100 instances): 0.2308 
+Average squared error on test set (400 instances): 0.2057 
+
+In iteration 704: 
+Forward pass output: 0.2052 
+Average squared error on training set (100 instances): 0.2326 
+Average squared error on test set (400 instances): 0.2069 
+
+In iteration 705: 
+Forward pass output: 0.1974 
+Average squared error on training set (100 instances): 0.2344 
+Average squared error on test set (400 instances): 0.2081 
+
+In iteration 706: 
+Forward pass output: 0.1905 
+Average squared error on training set (100 instances): 0.2361 
+Average squared error on test set (400 instances): 0.2092 
+
+In iteration 707: 
+Forward pass output: 0.1836 
+Average squared error on training set (100 instances): 0.2377 
+Average squared error on test set (400 instances): 0.2104 
+
+In iteration 708: 
+Forward pass output: 0.1780 
+Average squared error on training set (100 instances): 0.2393 
+Average squared error on test set (400 instances): 0.2115 
+
+In iteration 709: 
+Forward pass output: 0.1722 
+Average squared error on training set (100 instances): 0.2409 
+Average squared error on test set (400 instances): 0.2126 
+
+In iteration 710: 
+Forward pass output: 0.1671 
+Average squared error on training set (100 instances): 0.2423 
+Average squared error on test set (400 instances): 0.2137 
+
+In iteration 711: 
+Forward pass output: 0.1627 
+Average squared error on training set (100 instances): 0.2437 
+Average squared error on test set (400 instances): 0.2147 
+
+In iteration 712: 
+Forward pass output: 0.1579 
+Average squared error on training set (100 instances): 0.2451 
+Average squared error on test set (400 instances): 0.2157 
+
+In iteration 713: 
+Forward pass output: 0.1540 
+Average squared error on training set (100 instances): 0.2464 
+Average squared error on test set (400 instances): 0.2167 
+
+In iteration 714: 
+Forward pass output: 0.1502 
+Average squared error on training set (100 instances): 0.2476 
+Average squared error on test set (400 instances): 0.2176 
+
+In iteration 715: 
+Forward pass output: 0.1467 
+Average squared error on training set (100 instances): 0.2408 
+Average squared error on test set (400 instances): 0.2125 
+
+In iteration 716: 
+Forward pass output: 0.1675 
+Average squared error on training set (100 instances): 0.2422 
+Average squared error on test set (400 instances): 0.2136 
+
+In iteration 717: 
+Forward pass output: 0.1630 
+Average squared error on training set (100 instances): 0.2436 
+Average squared error on test set (400 instances): 0.2146 
+
+In iteration 718: 
+Forward pass output: 0.1585 
+Average squared error on training set (100 instances): 0.2450 
+Average squared error on test set (400 instances): 0.2156 
+
+In iteration 719: 
+Forward pass output: 0.1545 
+Average squared error on training set (100 instances): 0.2380 
+Average squared error on test set (400 instances): 0.2106 
+
+In iteration 720: 
+Forward pass output: 0.1770 
+Average squared error on training set (100 instances): 0.2396 
+Average squared error on test set (400 instances): 0.2117 
+
+In iteration 721: 
+Forward pass output: 0.1714 
+Average squared error on training set (100 instances): 0.2411 
+Average squared error on test set (400 instances): 0.2128 
+
+In iteration 722: 
+Forward pass output: 0.1663 
+Average squared error on training set (100 instances): 0.2341 
+Average squared error on test set (400 instances): 0.2079 
+
+In iteration 723: 
+Forward pass output: 0.1914 
+Average squared error on training set (100 instances): 0.2274 
+Average squared error on test set (400 instances): 0.2037 
+
+In iteration 724: 
+Forward pass output: 0.2206 
+Average squared error on training set (100 instances): 0.2218 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 725: 
+Forward pass output: 0.2551 
+Average squared error on training set (100 instances): 0.2236 
+Average squared error on test set (400 instances): 0.2017 
+
+In iteration 726: 
+Forward pass output: 0.2422 
+Average squared error on training set (100 instances): 0.2255 
+Average squared error on test set (400 instances): 0.2026 
+
+In iteration 727: 
+Forward pass output: 0.2308 
+Average squared error on training set (100 instances): 0.2274 
+Average squared error on test set (400 instances): 0.2036 
+
+In iteration 728: 
+Forward pass output: 0.2207 
+Average squared error on training set (100 instances): 0.2293 
+Average squared error on test set (400 instances): 0.2048 
+
+In iteration 729: 
+Forward pass output: 0.2116 
+Average squared error on training set (100 instances): 0.2311 
+Average squared error on test set (400 instances): 0.2059 
+
+In iteration 730: 
+Forward pass output: 0.2034 
+Average squared error on training set (100 instances): 0.2248 
+Average squared error on test set (400 instances): 0.2023 
+
+In iteration 731: 
+Forward pass output: 0.2351 
+Average squared error on training set (100 instances): 0.2199 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 732: 
+Forward pass output: 0.2717 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2017 
+
+In iteration 733: 
+Forward pass output: 0.3125 
+Average squared error on training set (100 instances): 0.2183 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 734: 
+Forward pass output: 0.2933 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2039 
+
+In iteration 735: 
+Forward pass output: 0.3365 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2018 
+
+In iteration 736: 
+Forward pass output: 0.3141 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 737: 
+Forward pass output: 0.2945 
+Average squared error on training set (100 instances): 0.2179 
+Average squared error on test set (400 instances): 0.2041 
+
+In iteration 738: 
+Forward pass output: 0.3378 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2019 
+
+In iteration 739: 
+Forward pass output: 0.3155 
+Average squared error on training set (100 instances): 0.2192 
+Average squared error on test set (400 instances): 0.2073 
+
+In iteration 740: 
+Forward pass output: 0.3603 
+Average squared error on training set (100 instances): 0.2252 
+Average squared error on test set (400 instances): 0.2173 
+
+In iteration 741: 
+Forward pass output: 0.4073 
+Average squared error on training set (100 instances): 0.2357 
+Average squared error on test set (400 instances): 0.2319 
+
+In iteration 742: 
+Forward pass output: 0.4547 
+Average squared error on training set (100 instances): 0.2499 
+Average squared error on test set (400 instances): 0.2499 
+
+In iteration 743: 
+Forward pass output: 0.4998 
+Average squared error on training set (100 instances): 0.2667 
+Average squared error on test set (400 instances): 0.2702 
+
+In iteration 744: 
+Forward pass output: 0.5416 
+Average squared error on training set (100 instances): 0.2488 
+Average squared error on test set (400 instances): 0.2485 
+
+In iteration 745: 
+Forward pass output: 0.4965 
+Average squared error on training set (100 instances): 0.2358 
+Average squared error on test set (400 instances): 0.2320 
+
+In iteration 746: 
+Forward pass output: 0.4551 
+Average squared error on training set (100 instances): 0.2272 
+Average squared error on test set (400 instances): 0.2202 
+
+In iteration 747: 
+Forward pass output: 0.4180 
+Average squared error on training set (100 instances): 0.2218 
+Average squared error on test set (400 instances): 0.2121 
+
+In iteration 748: 
+Forward pass output: 0.3853 
+Average squared error on training set (100 instances): 0.2302 
+Average squared error on test set (400 instances): 0.2245 
+
+In iteration 749: 
+Forward pass output: 0.4323 
+Average squared error on training set (100 instances): 0.2236 
+Average squared error on test set (400 instances): 0.2149 
+
+In iteration 750: 
+Forward pass output: 0.3977 
+Average squared error on training set (100 instances): 0.2332 
+Average squared error on test set (400 instances): 0.2286 
+
+In iteration 751: 
+Forward pass output: 0.4451 
+Average squared error on training set (100 instances): 0.2467 
+Average squared error on test set (400 instances): 0.2459 
+
+In iteration 752: 
+Forward pass output: 0.4906 
+Average squared error on training set (100 instances): 0.2344 
+Average squared error on test set (400 instances): 0.2302 
+
+In iteration 753: 
+Forward pass output: 0.4498 
+Average squared error on training set (100 instances): 0.2263 
+Average squared error on test set (400 instances): 0.2189 
+
+In iteration 754: 
+Forward pass output: 0.4134 
+Average squared error on training set (100 instances): 0.2372 
+Average squared error on test set (400 instances): 0.2338 
+
+In iteration 755: 
+Forward pass output: 0.4601 
+Average squared error on training set (100 instances): 0.2281 
+Average squared error on test set (400 instances): 0.2215 
+
+In iteration 756: 
+Forward pass output: 0.4226 
+Average squared error on training set (100 instances): 0.2224 
+Average squared error on test set (400 instances): 0.2130 
+
+In iteration 757: 
+Forward pass output: 0.3893 
+Average squared error on training set (100 instances): 0.2192 
+Average squared error on test set (400 instances): 0.2073 
+
+In iteration 758: 
+Forward pass output: 0.3602 
+Average squared error on training set (100 instances): 0.2251 
+Average squared error on test set (400 instances): 0.2172 
+
+In iteration 759: 
+Forward pass output: 0.4072 
+Average squared error on training set (100 instances): 0.2207 
+Average squared error on test set (400 instances): 0.2101 
+
+In iteration 760: 
+Forward pass output: 0.3757 
+Average squared error on training set (100 instances): 0.2184 
+Average squared error on test set (400 instances): 0.2055 
+
+In iteration 761: 
+Forward pass output: 0.3484 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2027 
+
+In iteration 762: 
+Forward pass output: 0.3245 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2011 
+
+In iteration 763: 
+Forward pass output: 0.3038 
+Average squared error on training set (100 instances): 0.2187 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 764: 
+Forward pass output: 0.2857 
+Average squared error on training set (100 instances): 0.2201 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 765: 
+Forward pass output: 0.2696 
+Average squared error on training set (100 instances): 0.2217 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 766: 
+Forward pass output: 0.2555 
+Average squared error on training set (100 instances): 0.2235 
+Average squared error on test set (400 instances): 0.2016 
+
+In iteration 767: 
+Forward pass output: 0.2429 
+Average squared error on training set (100 instances): 0.2253 
+Average squared error on test set (400 instances): 0.2025 
+
+In iteration 768: 
+Forward pass output: 0.2314 
+Average squared error on training set (100 instances): 0.2203 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 769: 
+Forward pass output: 0.2673 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2013 
+
+In iteration 770: 
+Forward pass output: 0.3075 
+Average squared error on training set (100 instances): 0.2185 
+Average squared error on test set (400 instances): 0.2059 
+
+In iteration 771: 
+Forward pass output: 0.3512 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2029 
+
+In iteration 772: 
+Forward pass output: 0.3277 
+Average squared error on training set (100 instances): 0.2203 
+Average squared error on test set (400 instances): 0.2095 
+
+In iteration 773: 
+Forward pass output: 0.3724 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2051 
+
+In iteration 774: 
+Forward pass output: 0.3456 
+Average squared error on training set (100 instances): 0.2227 
+Average squared error on test set (400 instances): 0.2135 
+
+In iteration 775: 
+Forward pass output: 0.3918 
+Average squared error on training set (100 instances): 0.2194 
+Average squared error on test set (400 instances): 0.2077 
+
+In iteration 776: 
+Forward pass output: 0.3626 
+Average squared error on training set (100 instances): 0.2255 
+Average squared error on test set (400 instances): 0.2178 
+
+In iteration 777: 
+Forward pass output: 0.4091 
+Average squared error on training set (100 instances): 0.2360 
+Average squared error on test set (400 instances): 0.2322 
+
+In iteration 778: 
+Forward pass output: 0.4556 
+Average squared error on training set (100 instances): 0.2500 
+Average squared error on test set (400 instances): 0.2500 
+
+In iteration 779: 
+Forward pass output: 0.5000 
+Average squared error on training set (100 instances): 0.2369 
+Average squared error on test set (400 instances): 0.2334 
+
+In iteration 780: 
+Forward pass output: 0.4588 
+Average squared error on training set (100 instances): 0.2279 
+Average squared error on test set (400 instances): 0.2213 
+
+In iteration 781: 
+Forward pass output: 0.4216 
+Average squared error on training set (100 instances): 0.2223 
+Average squared error on test set (400 instances): 0.2129 
+
+In iteration 782: 
+Forward pass output: 0.3888 
+Average squared error on training set (100 instances): 0.2192 
+Average squared error on test set (400 instances): 0.2073 
+
+In iteration 783: 
+Forward pass output: 0.3600 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2037 
+
+In iteration 784: 
+Forward pass output: 0.3349 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2017 
+
+In iteration 785: 
+Forward pass output: 0.3131 
+Average squared error on training set (100 instances): 0.2189 
+Average squared error on test set (400 instances): 0.2068 
+
+In iteration 786: 
+Forward pass output: 0.3572 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2035 
+
+In iteration 787: 
+Forward pass output: 0.3325 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2016 
+
+In iteration 788: 
+Forward pass output: 0.3110 
+Average squared error on training set (100 instances): 0.2188 
+Average squared error on test set (400 instances): 0.2064 
+
+In iteration 789: 
+Forward pass output: 0.3549 
+Average squared error on training set (100 instances): 0.2241 
+Average squared error on test set (400 instances): 0.2157 
+
+In iteration 790: 
+Forward pass output: 0.4009 
+Average squared error on training set (100 instances): 0.2201 
+Average squared error on test set (400 instances): 0.2091 
+
+In iteration 791: 
+Forward pass output: 0.3705 
+Average squared error on training set (100 instances): 0.2270 
+Average squared error on test set (400 instances): 0.2200 
+
+In iteration 792: 
+Forward pass output: 0.4171 
+Average squared error on training set (100 instances): 0.2218 
+Average squared error on test set (400 instances): 0.2120 
+
+In iteration 793: 
+Forward pass output: 0.3851 
+Average squared error on training set (100 instances): 0.2189 
+Average squared error on test set (400 instances): 0.2067 
+
+In iteration 794: 
+Forward pass output: 0.3568 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2034 
+
+In iteration 795: 
+Forward pass output: 0.3320 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2015 
+
+In iteration 796: 
+Forward pass output: 0.3108 
+Average squared error on training set (100 instances): 0.2183 
+Average squared error on test set (400 instances): 0.2006 
+
+In iteration 797: 
+Forward pass output: 0.2920 
+Average squared error on training set (100 instances): 0.2195 
+Average squared error on test set (400 instances): 0.2004 
+
+In iteration 798: 
+Forward pass output: 0.2752 
+Average squared error on training set (100 instances): 0.2210 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 799: 
+Forward pass output: 0.2610 
+Average squared error on training set (100 instances): 0.2227 
+Average squared error on test set (400 instances): 0.2013 
+
+In iteration 800: 
+Forward pass output: 0.2478 
+Average squared error on training set (100 instances): 0.2246 
+Average squared error on test set (400 instances): 0.2021 
+
+In iteration 801: 
+Forward pass output: 0.2358 
+Average squared error on training set (100 instances): 0.2264 
+Average squared error on test set (400 instances): 0.2031 
+
+In iteration 802: 
+Forward pass output: 0.2257 
+Average squared error on training set (100 instances): 0.2283 
+Average squared error on test set (400 instances): 0.2042 
+
+In iteration 803: 
+Forward pass output: 0.2164 
+Average squared error on training set (100 instances): 0.2301 
+Average squared error on test set (400 instances): 0.2053 
+
+In iteration 804: 
+Forward pass output: 0.2080 
+Average squared error on training set (100 instances): 0.2319 
+Average squared error on test set (400 instances): 0.2064 
+
+In iteration 805: 
+Forward pass output: 0.2002 
+Average squared error on training set (100 instances): 0.2336 
+Average squared error on test set (400 instances): 0.2076 
+
+In iteration 806: 
+Forward pass output: 0.1933 
+Average squared error on training set (100 instances): 0.2353 
+Average squared error on test set (400 instances): 0.2087 
+
+In iteration 807: 
+Forward pass output: 0.1862 
+Average squared error on training set (100 instances): 0.2370 
+Average squared error on test set (400 instances): 0.2098 
+
+In iteration 808: 
+Forward pass output: 0.1808 
+Average squared error on training set (100 instances): 0.2385 
+Average squared error on test set (400 instances): 0.2109 
+
+In iteration 809: 
+Forward pass output: 0.1747 
+Average squared error on training set (100 instances): 0.2401 
+Average squared error on test set (400 instances): 0.2120 
+
+In iteration 810: 
+Forward pass output: 0.1696 
+Average squared error on training set (100 instances): 0.2415 
+Average squared error on test set (400 instances): 0.2131 
+
+In iteration 811: 
+Forward pass output: 0.1653 
+Average squared error on training set (100 instances): 0.2429 
+Average squared error on test set (400 instances): 0.2141 
+
+In iteration 812: 
+Forward pass output: 0.1603 
+Average squared error on training set (100 instances): 0.2442 
+Average squared error on test set (400 instances): 0.2151 
+
+In iteration 813: 
+Forward pass output: 0.1564 
+Average squared error on training set (100 instances): 0.2455 
+Average squared error on test set (400 instances): 0.2160 
+
+In iteration 814: 
+Forward pass output: 0.1527 
+Average squared error on training set (100 instances): 0.2468 
+Average squared error on test set (400 instances): 0.2169 
+
+In iteration 815: 
+Forward pass output: 0.1492 
+Average squared error on training set (100 instances): 0.2401 
+Average squared error on test set (400 instances): 0.2120 
+
+In iteration 816: 
+Forward pass output: 0.1696 
+Average squared error on training set (100 instances): 0.2415 
+Average squared error on test set (400 instances): 0.2131 
+
+In iteration 817: 
+Forward pass output: 0.1652 
+Average squared error on training set (100 instances): 0.2429 
+Average squared error on test set (400 instances): 0.2141 
+
+In iteration 818: 
+Forward pass output: 0.1607 
+Average squared error on training set (100 instances): 0.2442 
+Average squared error on test set (400 instances): 0.2151 
+
+In iteration 819: 
+Forward pass output: 0.1568 
+Average squared error on training set (100 instances): 0.2375 
+Average squared error on test set (400 instances): 0.2102 
+
+In iteration 820: 
+Forward pass output: 0.1790 
+Average squared error on training set (100 instances): 0.2390 
+Average squared error on test set (400 instances): 0.2113 
+
+In iteration 821: 
+Forward pass output: 0.1733 
+Average squared error on training set (100 instances): 0.2405 
+Average squared error on test set (400 instances): 0.2123 
+
+In iteration 822: 
+Forward pass output: 0.1681 
+Average squared error on training set (100 instances): 0.2337 
+Average squared error on test set (400 instances): 0.2076 
+
+In iteration 823: 
+Forward pass output: 0.1930 
+Average squared error on training set (100 instances): 0.2272 
+Average squared error on test set (400 instances): 0.2036 
+
+In iteration 824: 
+Forward pass output: 0.2214 
+Average squared error on training set (100 instances): 0.2217 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 825: 
+Forward pass output: 0.2550 
+Average squared error on training set (100 instances): 0.2235 
+Average squared error on test set (400 instances): 0.2016 
+
+In iteration 826: 
+Forward pass output: 0.2424 
+Average squared error on training set (100 instances): 0.2253 
+Average squared error on test set (400 instances): 0.2025 
+
+In iteration 827: 
+Forward pass output: 0.2313 
+Average squared error on training set (100 instances): 0.2272 
+Average squared error on test set (400 instances): 0.2035 
+
+In iteration 828: 
+Forward pass output: 0.2215 
+Average squared error on training set (100 instances): 0.2290 
+Average squared error on test set (400 instances): 0.2046 
+
+In iteration 829: 
+Forward pass output: 0.2126 
+Average squared error on training set (100 instances): 0.2308 
+Average squared error on test set (400 instances): 0.2057 
+
+In iteration 830: 
+Forward pass output: 0.2046 
+Average squared error on training set (100 instances): 0.2247 
+Average squared error on test set (400 instances): 0.2022 
+
+In iteration 831: 
+Forward pass output: 0.2356 
+Average squared error on training set (100 instances): 0.2199 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 832: 
+Forward pass output: 0.2711 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2015 
+
+In iteration 833: 
+Forward pass output: 0.3103 
+Average squared error on training set (100 instances): 0.2183 
+Average squared error on test set (400 instances): 0.2006 
+
+In iteration 834: 
+Forward pass output: 0.2922 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2036 
+
+In iteration 835: 
+Forward pass output: 0.3337 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2016 
+
+In iteration 836: 
+Forward pass output: 0.3124 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 837: 
+Forward pass output: 0.2937 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2038 
+
+In iteration 838: 
+Forward pass output: 0.3354 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2017 
+
+In iteration 839: 
+Forward pass output: 0.3143 
+Average squared error on training set (100 instances): 0.2189 
+Average squared error on test set (400 instances): 0.2068 
+
+In iteration 840: 
+Forward pass output: 0.3574 
+Average squared error on training set (100 instances): 0.2245 
+Average squared error on test set (400 instances): 0.2162 
+
+In iteration 841: 
+Forward pass output: 0.4029 
+Average squared error on training set (100 instances): 0.2342 
+Average squared error on test set (400 instances): 0.2299 
+
+In iteration 842: 
+Forward pass output: 0.4490 
+Average squared error on training set (100 instances): 0.2476 
+Average squared error on test set (400 instances): 0.2470 
+
+In iteration 843: 
+Forward pass output: 0.4931 
+Average squared error on training set (100 instances): 0.2635 
+Average squared error on test set (400 instances): 0.2664 
+
+In iteration 844: 
+Forward pass output: 0.5343 
+Average squared error on training set (100 instances): 0.2468 
+Average squared error on test set (400 instances): 0.2461 
+
+In iteration 845: 
+Forward pass output: 0.4910 
+Average squared error on training set (100 instances): 0.2348 
+Average squared error on test set (400 instances): 0.2307 
+
+In iteration 846: 
+Forward pass output: 0.4512 
+Average squared error on training set (100 instances): 0.2267 
+Average squared error on test set (400 instances): 0.2195 
+
+In iteration 847: 
+Forward pass output: 0.4156 
+Average squared error on training set (100 instances): 0.2216 
+Average squared error on test set (400 instances): 0.2118 
+
+In iteration 848: 
+Forward pass output: 0.3842 
+Average squared error on training set (100 instances): 0.2296 
+Average squared error on test set (400 instances): 0.2237 
+
+In iteration 849: 
+Forward pass output: 0.4297 
+Average squared error on training set (100 instances): 0.2234 
+Average squared error on test set (400 instances): 0.2146 
+
+In iteration 850: 
+Forward pass output: 0.3963 
+Average squared error on training set (100 instances): 0.2326 
+Average squared error on test set (400 instances): 0.2277 
+
+In iteration 851: 
+Forward pass output: 0.4424 
+Average squared error on training set (100 instances): 0.2454 
+Average squared error on test set (400 instances): 0.2443 
+
+In iteration 852: 
+Forward pass output: 0.4868 
+Average squared error on training set (100 instances): 0.2338 
+Average squared error on test set (400 instances): 0.2294 
+
+In iteration 853: 
+Forward pass output: 0.4475 
+Average squared error on training set (100 instances): 0.2261 
+Average squared error on test set (400 instances): 0.2186 
+
+In iteration 854: 
+Forward pass output: 0.4124 
+Average squared error on training set (100 instances): 0.2365 
+Average squared error on test set (400 instances): 0.2330 
+
+In iteration 855: 
+Forward pass output: 0.4577 
+Average squared error on training set (100 instances): 0.2279 
+Average squared error on test set (400 instances): 0.2212 
+
+In iteration 856: 
+Forward pass output: 0.4216 
+Average squared error on training set (100 instances): 0.2224 
+Average squared error on test set (400 instances): 0.2130 
+
+In iteration 857: 
+Forward pass output: 0.3892 
+Average squared error on training set (100 instances): 0.2192 
+Average squared error on test set (400 instances): 0.2074 
+
+In iteration 858: 
+Forward pass output: 0.3611 
+Average squared error on training set (100 instances): 0.2250 
+Average squared error on test set (400 instances): 0.2171 
+
+In iteration 859: 
+Forward pass output: 0.4067 
+Average squared error on training set (100 instances): 0.2207 
+Average squared error on test set (400 instances): 0.2102 
+
+In iteration 860: 
+Forward pass output: 0.3761 
+Average squared error on training set (100 instances): 0.2184 
+Average squared error on test set (400 instances): 0.2056 
+
+In iteration 861: 
+Forward pass output: 0.3495 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2028 
+
+In iteration 862: 
+Forward pass output: 0.3261 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2012 
+
+In iteration 863: 
+Forward pass output: 0.3058 
+Average squared error on training set (100 instances): 0.2185 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 864: 
+Forward pass output: 0.2880 
+Average squared error on training set (100 instances): 0.2198 
+Average squared error on test set (400 instances): 0.2004 
+
+In iteration 865: 
+Forward pass output: 0.2721 
+Average squared error on training set (100 instances): 0.2213 
+Average squared error on test set (400 instances): 0.2008 
+
+In iteration 866: 
+Forward pass output: 0.2581 
+Average squared error on training set (100 instances): 0.2230 
+Average squared error on test set (400 instances): 0.2014 
+
+In iteration 867: 
+Forward pass output: 0.2455 
+Average squared error on training set (100 instances): 0.2248 
+Average squared error on test set (400 instances): 0.2023 
+
+In iteration 868: 
+Forward pass output: 0.2340 
+Average squared error on training set (100 instances): 0.2201 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 869: 
+Forward pass output: 0.2694 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2014 
+
+In iteration 870: 
+Forward pass output: 0.3086 
+Average squared error on training set (100 instances): 0.2185 
+Average squared error on test set (400 instances): 0.2059 
+
+In iteration 871: 
+Forward pass output: 0.3510 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2030 
+
+In iteration 872: 
+Forward pass output: 0.3284 
+Average squared error on training set (100 instances): 0.2202 
+Average squared error on test set (400 instances): 0.2093 
+
+In iteration 873: 
+Forward pass output: 0.3716 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2051 
+
+In iteration 874: 
+Forward pass output: 0.3457 
+Average squared error on training set (100 instances): 0.2225 
+Average squared error on test set (400 instances): 0.2132 
+
+In iteration 875: 
+Forward pass output: 0.3905 
+Average squared error on training set (100 instances): 0.2193 
+Average squared error on test set (400 instances): 0.2076 
+
+In iteration 876: 
+Forward pass output: 0.3624 
+Average squared error on training set (100 instances): 0.2252 
+Average squared error on test set (400 instances): 0.2173 
+
+In iteration 877: 
+Forward pass output: 0.4075 
+Average squared error on training set (100 instances): 0.2352 
+Average squared error on test set (400 instances): 0.2312 
+
+In iteration 878: 
+Forward pass output: 0.4527 
+Average squared error on training set (100 instances): 0.2486 
+Average squared error on test set (400 instances): 0.2483 
+
+In iteration 879: 
+Forward pass output: 0.4961 
+Average squared error on training set (100 instances): 0.2362 
+Average squared error on test set (400 instances): 0.2325 
+
+In iteration 880: 
+Forward pass output: 0.4563 
+Average squared error on training set (100 instances): 0.2277 
+Average squared error on test set (400 instances): 0.2209 
+
+In iteration 881: 
+Forward pass output: 0.4203 
+Average squared error on training set (100 instances): 0.2223 
+Average squared error on test set (400 instances): 0.2128 
+
+In iteration 882: 
+Forward pass output: 0.3886 
+Average squared error on training set (100 instances): 0.2192 
+Average squared error on test set (400 instances): 0.2074 
+
+In iteration 883: 
+Forward pass output: 0.3606 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2039 
+
+In iteration 884: 
+Forward pass output: 0.3361 
+Average squared error on training set (100 instances): 0.2175 
+Average squared error on test set (400 instances): 0.2018 
+
+In iteration 885: 
+Forward pass output: 0.3148 
+Average squared error on training set (100 instances): 0.2189 
+Average squared error on test set (400 instances): 0.2069 
+
+In iteration 886: 
+Forward pass output: 0.3577 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2036 
+
+In iteration 887: 
+Forward pass output: 0.3336 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2016 
+
+In iteration 888: 
+Forward pass output: 0.3127 
+Average squared error on training set (100 instances): 0.2188 
+Average squared error on test set (400 instances): 0.2065 
+
+In iteration 889: 
+Forward pass output: 0.3553 
+Average squared error on training set (100 instances): 0.2239 
+Average squared error on test set (400 instances): 0.2155 
+
+In iteration 890: 
+Forward pass output: 0.4000 
+Average squared error on training set (100 instances): 0.2201 
+Average squared error on test set (400 instances): 0.2091 
+
+In iteration 891: 
+Forward pass output: 0.3705 
+Average squared error on training set (100 instances): 0.2268 
+Average squared error on test set (400 instances): 0.2196 
+
+In iteration 892: 
+Forward pass output: 0.4159 
+Average squared error on training set (100 instances): 0.2217 
+Average squared error on test set (400 instances): 0.2120 
+
+In iteration 893: 
+Forward pass output: 0.3849 
+Average squared error on training set (100 instances): 0.2189 
+Average squared error on test set (400 instances): 0.2068 
+
+In iteration 894: 
+Forward pass output: 0.3573 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2035 
+
+In iteration 895: 
+Forward pass output: 0.3331 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2016 
+
+In iteration 896: 
+Forward pass output: 0.3124 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 897: 
+Forward pass output: 0.2939 
+Average squared error on training set (100 instances): 0.2193 
+Average squared error on test set (400 instances): 0.2004 
+
+In iteration 898: 
+Forward pass output: 0.2773 
+Average squared error on training set (100 instances): 0.2207 
+Average squared error on test set (400 instances): 0.2006 
+
+In iteration 899: 
+Forward pass output: 0.2634 
+Average squared error on training set (100 instances): 0.2224 
+Average squared error on test set (400 instances): 0.2012 
+
+In iteration 900: 
+Forward pass output: 0.2502 
+Average squared error on training set (100 instances): 0.2241 
+Average squared error on test set (400 instances): 0.2019 
+
+In iteration 901: 
+Forward pass output: 0.2381 
+Average squared error on training set (100 instances): 0.2259 
+Average squared error on test set (400 instances): 0.2028 
+
+In iteration 902: 
+Forward pass output: 0.2282 
+Average squared error on training set (100 instances): 0.2277 
+Average squared error on test set (400 instances): 0.2038 
+
+In iteration 903: 
+Forward pass output: 0.2189 
+Average squared error on training set (100 instances): 0.2295 
+Average squared error on test set (400 instances): 0.2049 
+
+In iteration 904: 
+Forward pass output: 0.2106 
+Average squared error on training set (100 instances): 0.2313 
+Average squared error on test set (400 instances): 0.2060 
+
+In iteration 905: 
+Forward pass output: 0.2028 
+Average squared error on training set (100 instances): 0.2330 
+Average squared error on test set (400 instances): 0.2071 
+
+In iteration 906: 
+Forward pass output: 0.1959 
+Average squared error on training set (100 instances): 0.2346 
+Average squared error on test set (400 instances): 0.2082 
+
+In iteration 907: 
+Forward pass output: 0.1886 
+Average squared error on training set (100 instances): 0.2363 
+Average squared error on test set (400 instances): 0.2093 
+
+In iteration 908: 
+Forward pass output: 0.1833 
+Average squared error on training set (100 instances): 0.2378 
+Average squared error on test set (400 instances): 0.2104 
+
+In iteration 909: 
+Forward pass output: 0.1771 
+Average squared error on training set (100 instances): 0.2393 
+Average squared error on test set (400 instances): 0.2115 
+
+In iteration 910: 
+Forward pass output: 0.1719 
+Average squared error on training set (100 instances): 0.2407 
+Average squared error on test set (400 instances): 0.2125 
+
+In iteration 911: 
+Forward pass output: 0.1677 
+Average squared error on training set (100 instances): 0.2421 
+Average squared error on test set (400 instances): 0.2135 
+
+In iteration 912: 
+Forward pass output: 0.1625 
+Average squared error on training set (100 instances): 0.2434 
+Average squared error on test set (400 instances): 0.2145 
+
+In iteration 913: 
+Forward pass output: 0.1587 
+Average squared error on training set (100 instances): 0.2447 
+Average squared error on test set (400 instances): 0.2154 
+
+In iteration 914: 
+Forward pass output: 0.1550 
+Average squared error on training set (100 instances): 0.2460 
+Average squared error on test set (400 instances): 0.2163 
+
+In iteration 915: 
+Forward pass output: 0.1516 
+Average squared error on training set (100 instances): 0.2394 
+Average squared error on test set (400 instances): 0.2115 
+
+In iteration 916: 
+Forward pass output: 0.1716 
+Average squared error on training set (100 instances): 0.2408 
+Average squared error on test set (400 instances): 0.2126 
+
+In iteration 917: 
+Forward pass output: 0.1673 
+Average squared error on training set (100 instances): 0.2422 
+Average squared error on test set (400 instances): 0.2136 
+
+In iteration 918: 
+Forward pass output: 0.1627 
+Average squared error on training set (100 instances): 0.2436 
+Average squared error on test set (400 instances): 0.2145 
+
+In iteration 919: 
+Forward pass output: 0.1589 
+Average squared error on training set (100 instances): 0.2369 
+Average squared error on test set (400 instances): 0.2098 
+
+In iteration 920: 
+Forward pass output: 0.1808 
+Average squared error on training set (100 instances): 0.2385 
+Average squared error on test set (400 instances): 0.2109 
+
+In iteration 921: 
+Forward pass output: 0.1750 
+Average squared error on training set (100 instances): 0.2399 
+Average squared error on test set (400 instances): 0.2119 
+
+In iteration 922: 
+Forward pass output: 0.1699 
+Average squared error on training set (100 instances): 0.2333 
+Average squared error on test set (400 instances): 0.2073 
+
+In iteration 923: 
+Forward pass output: 0.1945 
+Average squared error on training set (100 instances): 0.2270 
+Average squared error on test set (400 instances): 0.2034 
+
+In iteration 924: 
+Forward pass output: 0.2222 
+Average squared error on training set (100 instances): 0.2217 
+Average squared error on test set (400 instances): 0.2009 
+
+In iteration 925: 
+Forward pass output: 0.2549 
+Average squared error on training set (100 instances): 0.2234 
+Average squared error on test set (400 instances): 0.2016 
+
+In iteration 926: 
+Forward pass output: 0.2426 
+Average squared error on training set (100 instances): 0.2252 
+Average squared error on test set (400 instances): 0.2025 
+
+In iteration 927: 
+Forward pass output: 0.2317 
+Average squared error on training set (100 instances): 0.2270 
+Average squared error on test set (400 instances): 0.2034 
+
+In iteration 928: 
+Forward pass output: 0.2222 
+Average squared error on training set (100 instances): 0.2288 
+Average squared error on test set (400 instances): 0.2045 
+
+In iteration 929: 
+Forward pass output: 0.2135 
+Average squared error on training set (100 instances): 0.2306 
+Average squared error on test set (400 instances): 0.2056 
+
+In iteration 930: 
+Forward pass output: 0.2057 
+Average squared error on training set (100 instances): 0.2246 
+Average squared error on test set (400 instances): 0.2021 
+
+In iteration 931: 
+Forward pass output: 0.2360 
+Average squared error on training set (100 instances): 0.2200 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 932: 
+Forward pass output: 0.2706 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2014 
+
+In iteration 933: 
+Forward pass output: 0.3084 
+Average squared error on training set (100 instances): 0.2183 
+Average squared error on test set (400 instances): 0.2006 
+
+In iteration 934: 
+Forward pass output: 0.2912 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2033 
+
+In iteration 935: 
+Forward pass output: 0.3313 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2015 
+
+In iteration 936: 
+Forward pass output: 0.3110 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2006 
+
+In iteration 937: 
+Forward pass output: 0.2929 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2035 
+
+In iteration 938: 
+Forward pass output: 0.3332 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2016 
+
+In iteration 939: 
+Forward pass output: 0.3132 
+Average squared error on training set (100 instances): 0.2187 
+Average squared error on test set (400 instances): 0.2064 
+
+In iteration 940: 
+Forward pass output: 0.3548 
+Average squared error on training set (100 instances): 0.2238 
+Average squared error on test set (400 instances): 0.2152 
+
+In iteration 941: 
+Forward pass output: 0.3990 
+Average squared error on training set (100 instances): 0.2329 
+Average squared error on test set (400 instances): 0.2281 
+
+In iteration 942: 
+Forward pass output: 0.4440 
+Average squared error on training set (100 instances): 0.2455 
+Average squared error on test set (400 instances): 0.2444 
+
+In iteration 943: 
+Forward pass output: 0.4871 
+Average squared error on training set (100 instances): 0.2607 
+Average squared error on test set (400 instances): 0.2630 
+
+In iteration 944: 
+Forward pass output: 0.5275 
+Average squared error on training set (100 instances): 0.2451 
+Average squared error on test set (400 instances): 0.2439 
+
+In iteration 945: 
+Forward pass output: 0.4858 
+Average squared error on training set (100 instances): 0.2339 
+Average squared error on test set (400 instances): 0.2294 
+
+In iteration 946: 
+Forward pass output: 0.4476 
+Average squared error on training set (100 instances): 0.2262 
+Average squared error on test set (400 instances): 0.2189 
+
+In iteration 947: 
+Forward pass output: 0.4134 
+Average squared error on training set (100 instances): 0.2215 
+Average squared error on test set (400 instances): 0.2115 
+
+In iteration 948: 
+Forward pass output: 0.3831 
+Average squared error on training set (100 instances): 0.2291 
+Average squared error on test set (400 instances): 0.2229 
+
+In iteration 949: 
+Forward pass output: 0.4273 
+Average squared error on training set (100 instances): 0.2232 
+Average squared error on test set (400 instances): 0.2143 
+
+In iteration 950: 
+Forward pass output: 0.3950 
+Average squared error on training set (100 instances): 0.2319 
+Average squared error on test set (400 instances): 0.2268 
+
+In iteration 951: 
+Forward pass output: 0.4400 
+Average squared error on training set (100 instances): 0.2442 
+Average squared error on test set (400 instances): 0.2428 
+
+In iteration 952: 
+Forward pass output: 0.4832 
+Average squared error on training set (100 instances): 0.2333 
+Average squared error on test set (400 instances): 0.2286 
+
+In iteration 953: 
+Forward pass output: 0.4453 
+Average squared error on training set (100 instances): 0.2259 
+Average squared error on test set (400 instances): 0.2183 
+
+In iteration 954: 
+Forward pass output: 0.4114 
+Average squared error on training set (100 instances): 0.2359 
+Average squared error on test set (400 instances): 0.2322 
+
+In iteration 955: 
+Forward pass output: 0.4555 
+Average squared error on training set (100 instances): 0.2276 
+Average squared error on test set (400 instances): 0.2209 
+
+In iteration 956: 
+Forward pass output: 0.4206 
+Average squared error on training set (100 instances): 0.2223 
+Average squared error on test set (400 instances): 0.2129 
+
+In iteration 957: 
+Forward pass output: 0.3891 
+Average squared error on training set (100 instances): 0.2193 
+Average squared error on test set (400 instances): 0.2075 
+
+In iteration 958: 
+Forward pass output: 0.3617 
+Average squared error on training set (100 instances): 0.2249 
+Average squared error on test set (400 instances): 0.2169 
+
+In iteration 959: 
+Forward pass output: 0.4063 
+Average squared error on training set (100 instances): 0.2207 
+Average squared error on test set (400 instances): 0.2102 
+
+In iteration 960: 
+Forward pass output: 0.3763 
+Average squared error on training set (100 instances): 0.2184 
+Average squared error on test set (400 instances): 0.2057 
+
+In iteration 961: 
+Forward pass output: 0.3505 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2029 
+
+In iteration 962: 
+Forward pass output: 0.3274 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2013 
+
+In iteration 963: 
+Forward pass output: 0.3076 
+Average squared error on training set (100 instances): 0.2184 
+Average squared error on test set (400 instances): 0.2006 
+
+In iteration 964: 
+Forward pass output: 0.2901 
+Average squared error on training set (100 instances): 0.2196 
+Average squared error on test set (400 instances): 0.2004 
+
+In iteration 965: 
+Forward pass output: 0.2743 
+Average squared error on training set (100 instances): 0.2210 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 966: 
+Forward pass output: 0.2605 
+Average squared error on training set (100 instances): 0.2227 
+Average squared error on test set (400 instances): 0.2013 
+
+In iteration 967: 
+Forward pass output: 0.2479 
+Average squared error on training set (100 instances): 0.2244 
+Average squared error on test set (400 instances): 0.2020 
+
+In iteration 968: 
+Forward pass output: 0.2363 
+Average squared error on training set (100 instances): 0.2199 
+Average squared error on test set (400 instances): 0.2004 
+
+In iteration 969: 
+Forward pass output: 0.2713 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2014 
+
+In iteration 970: 
+Forward pass output: 0.3097 
+Average squared error on training set (100 instances): 0.2185 
+Average squared error on test set (400 instances): 0.2059 
+
+In iteration 971: 
+Forward pass output: 0.3508 
+Average squared error on training set (100 instances): 0.2176 
+Average squared error on test set (400 instances): 0.2030 
+
+In iteration 972: 
+Forward pass output: 0.3291 
+Average squared error on training set (100 instances): 0.2201 
+Average squared error on test set (400 instances): 0.2092 
+
+In iteration 973: 
+Forward pass output: 0.3709 
+Average squared error on training set (100 instances): 0.2182 
+Average squared error on test set (400 instances): 0.2051 
+
+In iteration 974: 
+Forward pass output: 0.3457 
+Average squared error on training set (100 instances): 0.2224 
+Average squared error on test set (400 instances): 0.2130 
+
+In iteration 975: 
+Forward pass output: 0.3894 
+Average squared error on training set (100 instances): 0.2193 
+Average squared error on test set (400 instances): 0.2076 
+
+In iteration 976: 
+Forward pass output: 0.3622 
+Average squared error on training set (100 instances): 0.2249 
+Average squared error on test set (400 instances): 0.2170 
+
+In iteration 977: 
+Forward pass output: 0.4060 
+Average squared error on training set (100 instances): 0.2345 
+Average squared error on test set (400 instances): 0.2302 
+
+In iteration 978: 
+Forward pass output: 0.4501 
+Average squared error on training set (100 instances): 0.2473 
+Average squared error on test set (400 instances): 0.2467 
+
+In iteration 979: 
+Forward pass output: 0.4924 
+Average squared error on training set (100 instances): 0.2355 
+Average squared error on test set (400 instances): 0.2316 
+
+In iteration 980: 
+Forward pass output: 0.4540 
+Average squared error on training set (100 instances): 0.2274 
+Average squared error on test set (400 instances): 0.2206 
+
+In iteration 981: 
+Forward pass output: 0.4191 
+Average squared error on training set (100 instances): 0.2222 
+Average squared error on test set (400 instances): 0.2127 
+
+In iteration 982: 
+Forward pass output: 0.3883 
+Average squared error on training set (100 instances): 0.2192 
+Average squared error on test set (400 instances): 0.2074 
+
+In iteration 983: 
+Forward pass output: 0.3611 
+Average squared error on training set (100 instances): 0.2178 
+Average squared error on test set (400 instances): 0.2040 
+
+In iteration 984: 
+Forward pass output: 0.3371 
+Average squared error on training set (100 instances): 0.2175 
+Average squared error on test set (400 instances): 0.2019 
+
+In iteration 985: 
+Forward pass output: 0.3163 
+Average squared error on training set (100 instances): 0.2190 
+Average squared error on test set (400 instances): 0.2069 
+
+In iteration 986: 
+Forward pass output: 0.3582 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2037 
+
+In iteration 987: 
+Forward pass output: 0.3346 
+Average squared error on training set (100 instances): 0.2175 
+Average squared error on test set (400 instances): 0.2017 
+
+In iteration 988: 
+Forward pass output: 0.3141 
+Average squared error on training set (100 instances): 0.2188 
+Average squared error on test set (400 instances): 0.2065 
+
+In iteration 989: 
+Forward pass output: 0.3557 
+Average squared error on training set (100 instances): 0.2238 
+Average squared error on test set (400 instances): 0.2152 
+
+In iteration 990: 
+Forward pass output: 0.3992 
+Average squared error on training set (100 instances): 0.2201 
+Average squared error on test set (400 instances): 0.2091 
+
+In iteration 991: 
+Forward pass output: 0.3705 
+Average squared error on training set (100 instances): 0.2265 
+Average squared error on test set (400 instances): 0.2193 
+
+In iteration 992: 
+Forward pass output: 0.4147 
+Average squared error on training set (100 instances): 0.2217 
+Average squared error on test set (400 instances): 0.2119 
+
+In iteration 993: 
+Forward pass output: 0.3847 
+Average squared error on training set (100 instances): 0.2189 
+Average squared error on test set (400 instances): 0.2069 
+
+In iteration 994: 
+Forward pass output: 0.3578 
+Average squared error on training set (100 instances): 0.2177 
+Average squared error on test set (400 instances): 0.2036 
+
+In iteration 995: 
+Forward pass output: 0.3341 
+Average squared error on training set (100 instances): 0.2175 
+Average squared error on test set (400 instances): 0.2017 
+
+In iteration 996: 
+Forward pass output: 0.3139 
+Average squared error on training set (100 instances): 0.2181 
+Average squared error on test set (400 instances): 0.2007 
+
+In iteration 997: 
+Forward pass output: 0.2957 
+Average squared error on training set (100 instances): 0.2191 
+Average squared error on test set (400 instances): 0.2004 
+
+In iteration 998: 
+Forward pass output: 0.2792 
+Average squared error on training set (100 instances): 0.2205 
+Average squared error on test set (400 instances): 0.2005 
+
+In iteration 999: 
+Forward pass output: 0.2657 
+Average squared error on training set (100 instances): 0.2220 
+Average squared error on test set (400 instances): 0.2010 
+
+In iteration 1000: 
+Forward pass output: 0.2524 
+Average squared error on training set (100 instances): 0.2237 
+Average squared error on test set (400 instances): 0.2017 
+

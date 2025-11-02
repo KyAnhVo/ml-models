@@ -206,9 +206,9 @@ class NeuralNetwork:
         return res.tolist()
 
     def train_one(self, x: List[float], y: float):
-        forward = self.predict(x)
+        self.forward(np.array(x, dtype=np.float32))
         self.backward(np.array([y], dtype=np.float32))
-
+        return self._output
 
     def sigmoid(self, x: npt.NDArray[np.float32])->npt.NDArray[np.float32]:
         result = np.float32(1) / (np.float32(1) + np.exp(-x))
