@@ -1,8 +1,6 @@
 from neuralnetwork import NeuralNetwork
 from logistic_regression import LogisticRegressor
 import csv
-import numpy as np
-import numpy.typing as npt
 import sys
 
 def create_predictor(attribute_count: int, 
