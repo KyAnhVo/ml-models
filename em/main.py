@@ -2,10 +2,12 @@
 
 import sys
 from soft_clusterer import Soft_Clustering
+import numpy as np
 
 FILE    = sys.argv[1]
 K       = int(sys.argv[2])
 ITER    = int(sys.argv[3])
+DTYPE   = np.float32
 
 def main():
     data = []
@@ -13,7 +15,7 @@ def main():
         for line in f:
             data.append(float(line))
     
-    clusterer = Soft_Clustering(K, data)
+    clusterer = Soft_Clustering(K, data, DTYPE)
     
     for i in range(ITER):
         print(f"After iteration {i + 1}:")

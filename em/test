@@ -1,6 +1,8 @@
 #!/bin/bash
 
-./main.py ./test3.in 3 1000 > ./log3
-./main.py ./test3.in 5 1000 > ./log5
-./main.py ./test3.in 7 1000 > ./log7
-./main.py ./test3.in 9 1000 > ./log9
+tests=1000
+
+./main.py ./test3.in 3 ${tests} > ./log3
+./main.py ./test3.in 5 ${tests} > ./log5
+./main.py ./test3.in 7 ${tests} > ./log7
+./main.py ./test3.in 9 ${tests} > ./log9
